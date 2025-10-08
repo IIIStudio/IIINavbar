@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://fastly.jsdelivr.net/gh/xxximg/oss/img/i.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://fastly.jsdelivr.net/gh/xxximg/oss/img/i.ico" type="image/x-icon">
+    <title>项目展示</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    overflow-y: auto;
+    background-color: #f8f8f8;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+}
+
+.header, .container, .footer {
+    max-width: 1300px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 20px 0px 0px 20px;
+}
+.header p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px;
+    margin: 0px 0px 0px 20px;
+    font-size: 15px;
+}
+.container {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.project {
+    background-color: rgba(249, 250, 251);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: inherit; 
+    position: relative; 
+}
+
+.project:hover {
+    background-color: rgb(229, 231, 235); 
+}
+
+.project img {
+    width: 40px; 
+    height: auto;
+    margin-right: 15px; 
+    border-radius: 20%;
+}
+.project h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+.project p {
+    margin: 0;
+    color: #777;
+    font-size: 12px;
+}
+
+.icon-container {
+    display: flex;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    align-items: center;
+}
+
+
+/* 通用图标样式 */
+.icon-common {
+    display: inline-block;
+    cursor: pointer;
+    margin: 4px;
+    transition: transform 0.3s ease;
+}
+.icon-common:hover {
+    transform: scale(1.2);
+}
+
+.corner-links {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.corner-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    color: #212529;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.corner-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.corner-link img,
+.corner-link svg {
+    width: 22px;
+    height: 22px;
+}
+.corner-link .label {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+
+.project .wenzhang-btn:hover {
+    filter: brightness(0) saturate(100%) invert(15%) sepia(89%) saturate(694%) hue-rotate(162deg) brightness(97%) contrast(97%);
+}
+
+.container .footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #999;
+    margin-top: auto;
+    text-align: right;
+    width: 100%;
+}
+
+.container .footer a {
+    text-decoration: none;
+    color: rgba(217, 115, 13, 1);
+    font-weight: bolder;
+}
+
+.container :focus {
+    outline: 0;
+    border-color: #2260ff;
+    box-shadow: 0 0 0 4px #b5c9fc;
+}
+
+.mydict div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
+.mydict input[type="radio"] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.mydict input[type="radio"]:checked + span {
+    box-shadow: 0 0 0 0.0625em #0043ed;
+    background-color: #dee7ff;
+    z-index: 1;
+    color: #0043ed;
+}
+
+label span {
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.375em .75em;
+    position: relative;
+    margin-left: .0625em;
+    box-shadow: 0 0 0 0.0625em #b5bfd9;
+    letter-spacing: .05em;
+    color: #3e4963;
+    text-align: center;
+    transition: background-color .5s ease;
+}
+
+label:first-child span {
+    border-radius: .375em 0 0 .375em;
+}
+
+label:last-child span {
+    border-radius: 0 .375em .375em 0;
+}
+#project-container a:focus,
+#project-container .wenzhang-btn:focus,
+#project-container button:focus,
+#project-container input:focus,
+#project-container textarea:focus {
+    outline: none;
+    box-shadow: none; 
+}
+
+a:focus-visible, .wenzhang-btn:focus-visible {
+    outline: 2px solid #0043ed;
+    box-shadow: 0 0 0 2px rgba(0, 67, 237, 0.2);
+}
+
+
+
+@media (min-width: 640px) {
+    .container {
+    grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .container {
+    grid-template-columns: repeat(4, 1fr);
+    }
+  
+}
+
+@media (max-width: 1330px) {
+    .footer {
+    padding: 0px 20px 0px 0px;
+    box-sizing: border-box;
+    }
+}
+
+@media (max-width: 400px) {
+    label span {
+        padding: 0.355em 0.4em;
+    }
+}
+
+
+nav {
+    position: fixed;
+    left: 20px;
+    bottom: 0;
+    z-index: 2333;
+    transform: rotate(-90deg) translateZ(0);
+    transform-origin: 0 0;
+    transition: all .3s ease-out;
+    vertical-align: middle;
+    font-family: Roboto,Tahoma,Consolas,Microsoft YaHei;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+
+nav a.clip {
+    height: 3px;
+    width: 3px;
+    background: #000000;
+    border-radius: 100%
+}
+
+nav a {
+    display: inline-block;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    opacity: .4;
+    transition: all .3s;
+    vertical-align: middle
+}
+
+nav a.time {
+    opacity: 1
+}
+
+nav a.active,nav a:hover {
+    text-decoration: none;
+    opacity: 1
+}
+
+@media screen and (max-width: 1340px) {
+    nav {
+        left: 1px;
+    }
+}
+code {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-all;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+li {
+    word-wrap: break-word;
+}
+@media screen and (max-width: 500px) {
+    .search-bar img {
+        display: none; 
+    }
+}
+</style>
+</head>
+<body>
+    <nav> 
+    </nav>
+    <div class="header">
+        <div class="header-left">
+            <a href="./" target="_blank">
+                <img src="./logo/ohao.svg" alt="OHAO" style="width: 200px;padding: 20px 0px 0px 13px;">
+            </a>
+            <p>简易收藏夹</p>
+        </div>
+        <div class="corner-links" aria-label="页面固定链接">
+            <a class="corner-link" href="https://github.com/IIIStudio/IIINavbar" target="_blank" rel="noopener noreferrer" aria-label="前往 GitHub 仓库">
+                <!-- 内联 GitHub 图标，避免外部资源依赖 -->
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#24292F" d="M12 .5a12 12 0 0 0-3.79 23.41c.6.11.82-.26.82-.58v-2.02c-3.35.73-4.06-1.61-4.06-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.83 1.23 1.83 1.23 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.51.12-3.15 0 0 1.01-.32 3.3 1.23.96-.27 1.99-.4 3.01-.4s2.05.14 3.01.4c2.29-1.55 3.3-1.23 3.3-1.23.66 1.64.25 2.85.12 3.15.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.63-5.47 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/>
+                </svg>
+                <span class="label">IIINavbar</span>
+            </a>
+            <a class="corner-link" href="https://cnb.cool/IIIStudio/IIINavbar/" target="_blank" rel="noopener noreferrer" aria-label="前往 IIINavbar 文档页面">
+                <img src="https://docs.cnb.cool/images/logo/svg/LogoColorfulIcon.svg" alt="CNB Logo">
+            </a>
+        </div>
+    </div>
+
+    <div class="mydict" id="category-container">
+        <!-- 类别内容将通过JavaScript插入 -->
+    </div>
+
+    <div class="container" id="project-container">
+        <!-- 项目内容将通过JavaScript插入 -->
+    </div>
+
+<script>
+    const ps = 'Li9qc29uL2NvbGxlY3QuanNvbg==';
+    const iconConfigUrl = './json/icon.json';
+    const nav = './json/wen.json';
+</script>
+<script>
+const base64String = ps;
+const decodedString = atob(base64String);
+const md = decodedString;
+let projects = {}; // 初始化为空对象
+let iconConfig = {};
+
+Promise.all([
+    fetch(md).then(response => response.json()),
+    fetch(iconConfigUrl).then(response => response.json())
+]).then(([data, icons]) => {
+    projects = data;      // 项目数据
+    iconConfig = icons;   // 图标配置
+
+    // 动态创建类别选择
+    createCategoryOptions(Object.keys(projects));
+    // 默认加载第一个类别的项目
+    loadProjects(Object.keys(projects)[0]);
+}).catch(error => console.error('获取JSON或Icon时出错:', error));
+
+function createCategoryOptions(categories) {
+    const container = document.getElementById('category-container');
+    const categoryDiv = document.createElement('div');
+    categories.forEach((category, index) => {
+        const label = document.createElement('label');
+        label.innerHTML = `  
+            <input type="radio" name="radio" value="${category}" ${index === 0 ? 'checked' : ''}>
+            <span>${category.charAt(0).toUpperCase() + category.slice(1)}</span>
+        `;
+        categoryDiv.appendChild(label);
+    });
+    container.appendChild(categoryDiv);
+
+    // 添加事件监听器以根据选择的类别加载项目
+    document.querySelectorAll('input[name="radio"]').forEach(radio => {
+        radio.addEventListener('change', () => {
+            loadProjects(radio.value);
+        });
+    });
+}
+
+function loadProjects(category) {
+    const container = document.getElementById('project-container');
+    container.innerHTML = ''; // 清空现有内容
+    const selectedProjects = projects[category];
+
+    selectedProjects.forEach(project => {
+        const projectLink = document.createElement('a');
+        projectLink.href = project.href;
+        projectLink.className = 'project';
+        projectLink.target = '_blank';
+
+        let projectContent = `
+            <img src="${getCachedImage(project.img)}" alt="${project.nome} Icon">
+            <div>
+                <h3>${project.nome}</h3>
+                <p>${project.jianjie}</p>
+            </div>
+            <div class="icon-container">
+        `;
+
+        // 通用按 icon.json 渲染图标按钮（背景图，宽高相同，用 height 控制尺寸）
+        Object.keys(iconConfig).forEach(key => {
+            if (project[key]) {
+                const conf = iconConfig[key];
+                projectContent += `
+                    <a href="${project[key]}" target="_blank" class="${conf.class} icon-common" style="
+                        background-image: url('${conf.url}');
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-size: contain;
+                        height: ${conf.height}px;
+                        aspect-ratio: ${conf.ratio ? conf.ratio : 1};
+                    "></a>
+                `;
+            }
+        })
+
+        projectContent += `</div>`; // 关闭 icon-container 容器
+        projectLink.innerHTML = projectContent;
+        container.appendChild(projectLink);
+    });
+}
+
+// 检查是否已缓存图片，如果未缓存，则进行缓存
+function getCachedImage(imageUrl, width = 80) {
+    // 检查是否已缓存图片
+    if (!localStorage.getItem(imageUrl)) {
+        // 若未缓存，加载图片并缩放
+        fetch(imageUrl)
+            .then(response => response.blob())
+            .then(blob => createImageBitmap(blob)) // 将 Blob 转换为 ImageBitmap
+            .then(imageBitmap => {
+                // 计算保持宽高比的高度
+                const aspectRatio = imageBitmap.height / imageBitmap.width;
+                const height = Math.round(width * aspectRatio);
+                
+                // 创建 canvas 进行缩放
+                const canvas = document.createElement('canvas');
+                canvas.width = width;
+                canvas.height = height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(imageBitmap, 0, 0, width, height);
+
+                // 将缩放后的图片转换为 base64
+                canvas.toBlob(blob => {
+                    const reader = new FileReader();
+                    reader.onloadend = function() {
+                        localStorage.setItem(imageUrl, reader.result); // 缓存 base64 字符串
+                    };
+                    reader.readAsDataURL(blob);
+                }, 'image/webp'); // 使用 WebP 格式以减小文件大小
+            })
+            .catch(err => console.error('图片加载失败:', err));
+
+        return imageUrl; // 仍然返回原始 URL，等图片缓存完后会自动加载
+    } else {
+        // 若已缓存，直接返回 base64 字符串
+        return localStorage.getItem(imageUrl);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    // 获取 JSON 文件并渲染导航栏
+    fetch(nav)
+        .then(response => response.json())
+        .then(data => {
+            const navContainer = document.querySelector('nav');
+            data.nav.forEach(link => {
+                const aElement = document.createElement('a');
+            
+                // 如果有 href 属性，设置 href
+                if (link.href) {
+                    aElement.href = link.href;
+                    // 设置链接在新窗口打开
+                    aElement.target = '_blank';
+                }
+            
+                // 如果有 class 属性，设置 class
+                if (link.class) {
+                    aElement.classList.add(link.class);
+                }
+
+                // 如果有 text 属性，设置显示文本
+                if (link.text) {
+                    aElement.textContent = link.text;
+                }
+            
+                navContainer.appendChild(aElement);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+});
+
+</script>
+</body>
+</html>
