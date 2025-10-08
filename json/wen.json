@@ -1,0 +1,34 @@
+{
+  "nav": [
+    {
+      "href": "/",
+      "class": "active",
+      "text": "首页"
+    },
+    {
+      "class": "clip"
+    },
+    {
+      "href": "https://ezgsukhkdkfh.ap-northeast-1.clawcloudrun.com/",
+      "text": "MEMOS"
+    },
+    {
+      "href": "https://wrlmsuwkwitt.ap-southeast-1.clawcloudrun.com/my/",
+      "text": "QD-Today"
+    },
+    {
+      "class": "clip"
+    },
+    {
+      "href": "#",
+      "text": "备案信息"
+    },
+    {
+      "class": "clip"
+    },
+    {
+      "href": "https://github.com/IIIStudio/",
+      "text": "© 2025 IIIStudio"
+    }
+  ]
+}

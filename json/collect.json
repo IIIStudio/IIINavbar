@@ -1,0 +1,1687 @@
+{
+    "HTML": [
+        {
+            "href": "https://iii.ohao.net/",
+            "img": "./image/IIIStudio.png",
+            "nome": "IIINavbar",
+            "jianjie": "收藏导航。",
+            "GitHub": "https://github.com/IIIStudio/IIINavbar",
+            "vercel": "https://vercel.com/import/project?template=https://github.com/IIIStudio/IIINavbar/tree/main",
+            "tui": "https://iii.ohao.net/"
+        },
+        {
+            "href": "https://noteio.ohao.net/",
+            "img": "./image/notes.png",
+            "nome": "NoteIO",
+            "jianjie": "快捷剪贴板与笔记。",
+            "GitHub": "https://github.com/IIIStudio/NoteIO",
+            "vercel": "https://github.com/IIIStudio/NoteIO",
+            "tui": "https://noteio.ohao.net/"
+        },
+        {
+            "href": "https://iiistudio.github.io/PromptStudio/",
+            "img": "./image/c.png",
+            "nome": "PromptStudio",
+            "jianjie": "图生提词器。",
+            "tui": "https://iiistudio.github.io/PromptStudio/",
+            "GitHub": "https://github.com/IIIStudio/PromptStudio"
+        },
+        {
+            "href": "https://web-notepad-wine.vercel.app/",
+            "img": "./image/WebNotepad.png",
+            "nome": "WebNotepad",
+            "jianjie": "网页便签/文本分享工具。",
+            "GitHub": "https://github.com/IIIStudio/WebNotepad",
+            "vercel": "https://vercel.com/import/project?template=https://github.com/ZSCGR/WebNotepad/tree/master",
+            "tui": "https://web-notepad-wine.vercel.app/"
+        },
+        {
+            "href": "https://movierecord.notion.site/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/annet_230d55230ba11.webp",
+            "nome": "我的观影记录",
+            "jianjie": "使用notice，可能有点卡。",
+            "tui": "https://movierecord.notion.site/"
+        },
+        {
+            "href": "https://imagestool.com/webp2jpg-online/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/webp2jpg_9701d887a82b2.png",
+            "nome": "webp2jpg",
+            "jianjie": "图片批量处理程序。",
+            "tui": "./pic",
+            "GitHub": "https://github.com/renzhezhilu/webp2jpg-online",
+            "gw": "https://imagestool.com/zh_CN/"
+        },
+        {
+            "href": "https://petschko.org/tools/mv_decrypter/",
+            "img": "https://fastly.jsdelivr.net/gh/Petschko/RPG-Maker-MV-Decrypter/img/projectIcon.png",
+            "nome": "RPG-Maker",
+            "jianjie": "游戏资源解密。",
+            "tui": "./mv_decrypter",
+            "gw": "https://gitlab.com/Petschko/RPG-Maker-MV-Decrypter",
+            "GitHub": "https://github.com/Petschko/RPG-Maker-MV-Decrypter"
+        },
+        {
+            "href": "https://iiistudio.github.io/EFlashcard/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/闪卡_5a4165a7c7f42.png",
+            "nome": "英语闪卡练习",
+            "jianjie": "闪卡。",
+            "GitHub": "https://github.com/IIIStudio/EFlashcard"
+        },
+        {
+            "href": "https://hotkeycheatsheet.com/zh",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/快捷键备忘录_29f0bf69ad03e.png",
+            "nome": "快捷键备忘录",
+            "jianjie": "快捷键。"
+        },
+        {
+            "href": "https://newsnow.busiyi.world/",
+            "img": "https://newsnow.busiyi.world/icon.svg",
+            "nome": "newsnow",
+            "jianjie": "热门新闻。",
+            "GitHub": "https://github.com/ourongxing/newsnow"
+        },
+        {
+            "href": "https://friend.chatnext.ai/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/friend.chatnext.ai_41328f2d4172d.jpg",
+            "nome": "AI聊天",
+            "jianjie": "无需登录。"
+        },
+        {
+            "href": "https://www.milkywayidle.com/?ref=238666",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/milkywayidle_f630464c9611f.png",
+            "nome": "Milky Way Idle",
+            "jianjie": "银河奶牛放置游戏。",
+            "wenzhang": "https://milkonomy.pages.dev/"
+        },
+        {
+            "href": "https://game.haiyong.site/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/05/game.haiyong.site_aca5d413d65e3.gif",
+            "nome": "海拥🐬游戏大全",
+            "jianjie": "网页小游戏。"
+        },
+        {
+            "href": "https://video-oss-five.c.app/upload-loc",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Vercel_255b34a3159d8.jpg",
+            "nome": "Vercel",
+            "jianjie": "Vercel搭建 米哈游任意文件床。",
+            "gw": "https://hostloc.com/thread-1354842-1-1.html"
+        },
+        {
+            "href": "https://flow.ohao.net/zh-CN",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/05/flow_2464a606683a6.png",
+            "nome": "flow",
+            "jianjie": "在线ePub阅读器。",
+            "GitHub": "https://github.com/pacexy/flow",
+            "gw": "https://www.flowoss.com/zh-CN"
+        },
+        {
+            "href": "https://picsmaller.com/",
+            "img": "https://picsmaller.com/logo.svg",
+            "nome": "Pic Smaller图小小",
+            "jianjie": "图片批量压缩转换。",
+            "GitHub": "https://github.com/joye61/pic-smaller",
+            "gw": "https://pic-smaller.vercel.app/"
+        },
+        {
+            "href": "https://www.aconvert.com/cn/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/Aconvert_de4d2f6b53485.webp",
+            "nome": "Aconvert",
+            "jianjie": "文件转换。"
+        },
+        {
+            "href": "https://animista.net/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Animista_95322af10b470.png",
+            "nome": "Animista",
+            "jianjie": "SVG 或 HTML 动画元素。",
+            "wenzhang": "#"
+        },
+        {
+            "href": "https://3w.pm/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/Url-Shorten-Worker_16ba61e34b3b6.png",
+            "nome": "Url-Shorten-Worker",
+            "jianjie": "短链接。",
+            "GitHub": "https://github.com/xyTom/Url-Shorten-Worker",
+            "gw": "https://lnks.eu.org/"
+        },
+        {
+            "href": "https://demo.unlock-music.dev/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_8faffaefd5828.png",
+            "nome": "Unlock Music",
+            "jianjie": "本地游览器解锁加密的音乐文件。"
+        },
+        {
+            "href": "https://rename.jgrass.xyz",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/rename_b799c1d6807a3.ico",
+            "nome": "Rename",
+            "jianjie": "本地游览器批量文件重命名工具。",
+            "gw":"https://jgrass.cc/"
+        },
+        {
+            "href": "https://ncm.deno.dev/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/jsproxy_d7a61537caf84.jpg",
+            "nome": "jsproxy",
+            "jianjie": "在线代理。",
+            "GitHub": "https://github.com/EtherDream/jsproxy"
+        },
+        {
+            "href": "https://v2rayse.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/V2raySE_90869434da5d6.png",
+            "nome": "V2raySE",
+            "jianjie": "免费VPN节点分享与管理平台。"
+        },
+        {
+            "href": "https://www.saveeditonline.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Save Editor_c31e290bceb20.png",
+            "nome": "Save Editor",
+            "jianjie": "在线游戏存档编辑器。"
+        },
+        {
+            "href": "https://regex101.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/regex101_afb4a072ee094.png",
+            "nome": "regex101",
+            "jianjie": "文本正则替换。",
+            "wenzhang":"#"
+        },
+        {
+            "href": "https://archive.md/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Webpage archive_507e62ff28bd2.png",
+            "nome": "Webpage archive",
+            "jianjie": "历史网页存储。"
+        },
+        {
+            "href": "https://web.archive.org/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/archive_de0a9794b9ec4.ico",
+            "nome": "archive",
+            "jianjie": "历史网页存储。"
+        },
+        {
+            "href": "https://edu.chatgpt.org.uk/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/edu_025a8e2d3f98b.webp",
+            "nome": "伪造SID",
+            "jianjie": "Certificate Generator。"
+        },
+        {
+            "href": "https://cobalt.tools/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/Cobalt 2_312e65d990e36.png",
+            "nome": "Cobalt",
+            "jianjie": "媒体下载器。",
+            "GitHub":"https://github.com/imputnet/cobalt"
+        },
+        {
+            "href": "https://snapany.com/zh",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/snapany_f9cc007dc8ba3.ico",
+            "nome": "SnapAny",
+            "jianjie": "万能视频图片解析下载。"
+        },
+        {
+            "href": "https://greenvideo.cc/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/GreenVideo - 2_5b6b9015c14b7.png",
+            "nome": "GreenVideo",
+            "jianjie": "视频下载。"
+        },
+        {
+            "href": "https://d3ward.github.io/toolz/adblock.html",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/d3ward.github.io_ca43e3c8bfb36.png",
+            "nome": "Adblock Test",
+            "jianjie": "网络检测。",
+            "GitHub":"https://github.com/d3ward/toolz"
+        },
+        {
+            "href": "https://port.ping.pe/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/ip_0cfa64b88f6d5.png",
+            "nome": "Ping",
+            "jianjie": "检测是否被墙。"
+        },
+        {
+            "href": "https://ipleak.net/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/ipleak.net_a40a089a9bb96.png",
+            "nome": "IP/DNS Detect",
+            "jianjie": "WebRTC检测。"
+        },
+        {
+            "href": "https://doocs.github.io/md/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/ Markdown 编辑器_3b1d01d9ae552.png",
+            "nome": "Markdown",
+            "jianjie": "微信 Markdown 编辑器。",
+            "GitHub":"https://github.com/doocs/md"
+        },
+        {
+            "href": "https://www.mail-tester.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/mail-tester.com_0ea28acded2c8.png",
+            "nome": "mail-tester",
+            "jianjie": "测试邮件的垃圾邮件匹配度。"
+        },
+        {
+            "href": "https://mail.tm/zh/",
+            "img": "https://mail.tm/apple-touch-icon.png",
+            "nome": "Temp Mail",
+            "jianjie": "临时邮件。",
+            "wenzhang":"#"
+        },
+        {
+            "href": "https://gchq.github.io/CyberChef/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/CyberChef_278af764be0da.png",
+            "nome": "CyberChef",
+            "jianjie": "Web应用。",
+            "GitHub":"https://github.com/gchq/CyberChef"
+        },
+        {
+            "href": "https://dun.163.com/trial/image/sex",
+            "img": "https://dun.163.com/public/res/favicon.ico",
+            "nome": "鉴黄",
+            "jianjie": "在线163图片鉴黄。"
+        },
+        {
+            "href": "https://trace.moe/",
+            "img": "https://images.plurk.com/32B15UXxymfSMwKGTObY5e.jpg",
+            "nome": "trace.moe",
+            "jianjie": "动漫场景图片搜索。",
+            "GitHub":"https://github.com/soruly/trace.moe"
+        },
+        {
+            "href": "https://lab.magiconch.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/_6fdcdf87180df.png",
+            "nome": "神奇海螺试验场",
+            "jianjie": "Web应用。"
+        },
+        {
+            "href": "https://namso-gen.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/Namsogen_fa075b5961960.png",
+            "nome": "Namsogen",
+            "jianjie": "信用卡生成。"
+        },
+        {
+            "href": "http://stp.ezyro.com/img/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_89371d32e8692.png",
+            "nome": "图床",
+            "jianjie": "ipfs图床。",
+            "wenzhang":"#"
+        },
+        {
+            "href": "https://getsimnum.caict.ac.cn/#/index",
+            "img": "https://getsimnum.caict.ac.cn/webicon.ico",
+            "nome": "一证通查",
+            "jianjie": "全国移动电话卡。"
+        },
+        {
+            "href": "https://app.diagrams.net/",
+            "img": "https://app.diagrams.net/images/apple-touch-icon.png",
+            "nome": "draw.io",
+            "jianjie": "免费的在线图表软件。",
+            "GitHub":"https://github.com/jgraph/drawio-desktop"
+        },
+        {
+            "href": "https://3.0.3.0/image",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_5f638c2f248dc.png",
+            "nome": "🐭 API Center",
+            "jianjie": "限制:32MB 1h，文件中转站。"
+        },
+        {
+            "href": "https://rosabis.github.io/J2meJS/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/J2meJS_4215ac4782ec7.webp",
+            "nome": "J2meJS",
+            "jianjie": "j2me在线模拟器。",
+            "GitHub":"https://github.com/Rosabis/J2meJS"
+        },
+        {
+            "href": "https://aidn.jp/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/jacket_ddee9bb164d50.webp",
+            "nome": "AIDN",
+            "jianjie": "Daniwell 官方网站。"
+        },
+        {
+            "href": "https://networkpanel-lite.pages.dev/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/NetworkPanel_2b5e18d41e9c3.png",
+            "nome": "NetworkPanel",
+            "jianjie": "测试网速。",
+            "GitHub":"https://github.com/ljxi/NetworkPanel",
+            "gw":"https://net.netart.cn/"
+        },
+        {
+            "href": "https://ncase.me/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/05/ncase.me_d57e0f44634d4.png",
+            "nome": "ncase",
+            "jianjie": "一些互动小游戏。",
+            "GitHub":"https://github.com/DCCXI/trust-zh-CN",
+            "gw":"https://dccxi.com/trust/"
+        },
+        {
+            "href": "https://neal.fun/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Neal.fun_22482bc2f8606.webp",
+            "nome": "Neal.fun",
+            "jianjie": "游戏、可视化、交互和其他奇怪的东西。"
+        },
+        {
+            "href": "https://txt.xrl.app/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_ee1d813f93773.png",
+            "nome": "易笺",
+            "jianjie": "TXT 小说阅读器 [Web]。"
+        },
+        {
+            "href": "https://repo.trojan-cdn.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_03aa696b3ab46.png",
+            "nome": "GFW",
+            "jianjie": "代理软件库。",
+            "GitHub":"https://github.com/lrsjng/h5ai/"
+        },
+        {
+            "href": "https://bezier.method.ac/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/bezier.method.ac_85cc845c8da79.jpg",
+            "nome": "The Bézier Game",
+            "jianjie": "钢笔工具学习游戏。"
+        },
+        {
+            "href": "https://ezgif.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/ezgif.com_7b1c63ef43e1a.png",
+            "nome": "Ezgif",
+            "jianjie": "在线GIF动画编辑器。"
+        },
+        {
+            "href": "https://privacy.aiuys.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Privacy_5d3e275a6ca6e.png",
+            "nome": "Privacy",
+            "jianjie": "个人数据泄漏检测。"
+        },
+        {
+            "href": "https://getavataaars.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/avataaars_c79b4d582dc16.png",
+            "nome": "avataaars",
+            "jianjie": "头像生成器。",
+            "gw":"https://notion-avatar.vercel.app/zh"
+            
+        },
+        {
+            "href": "https://cotrans.touhou.ai/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Cotrans_19ba9dca96067.jpg",
+            "nome": "Cotrans",
+            "jianjie": "漫画图像翻译器。",
+            "GitHub":"https://github.com/zyddnys/manga-image-translator"
+        },
+        {
+            "href": "https://taiyuuki.github.io/elepub-web-build/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/elepub_5a39df7db68aa.png",
+            "nome": "elepub",
+            "jianjie": "多看阅读漫画生成器。",
+            "GitHub":"https://github.com/taiyuuki/elepub"
+        },
+        {
+            "href": "https://hexed.it/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/HexEd.it_887234e6e8e01.png",
+            "nome": "HexEd.it",
+            "jianjie": "十六进制编辑器。"
+        },
+        {
+            "href": "https://bgp.tools/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/BGP.Tools_21013e97881fe.png",
+            "nome": "BGP.Tools",
+            "jianjie": "查看互联网路由。"
+        },
+        {
+            "href": "https://colab.research.google.com/github/cheems/Mega-to-Google-Drive/blob/master/Transfer_files_from_Mega_to_Google_Drive.ipynb#scrollTo=XlDyLy_JZJ03",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Google Colab_344ff9241f10f.ico",
+            "nome": "Google Colab",
+            "jianjie": "Mega to GDrive。",
+            "GitHub": "https://github.com/menukaonline/Mega-to-Google-Drive"
+        },
+        {
+            "href": "https://softgateon.herokuapp.com/urltodrive/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Copy, URL to Google Drive_2e1a97b04b4cc.png",
+            "nome": "Copy, URL to GDrive",
+            "jianjie": "谷歌转存。"
+        },
+        {
+            "href": "https://mikewang000000.github.io/ClashScan",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Clash_dd9221193a21f.webp",
+            "nome": "ClashScan",
+            "jianjie": "在线检测您是否在使用 Clash。",
+            "GitHub":"https://github.com/MikeWang000000/ClashScan"
+        },
+        {
+            "href": "https://proxy.incolumitas.com/proxy_detect.html",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/web_b826fa47ba2fe.png",
+            "nome": "代理检测",
+            "jianjie": "代理检测。"
+        },
+        {
+            "href": "https://renew.509605.xyz/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/azure_4065985029ded.png",
+            "nome": "MS365 E5 Renew X",
+            "jianjie": "E5续期！不一定有用。"
+        },
+        {
+            "href": "https://pagespeed.web.dev/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/PageSpeed Insights_aa324c0f32af5.png",
+            "nome": "PageSpeed Insights",
+            "jianjie": "分析网页。"
+        },
+        {
+            "href": "https://it-tools.tech/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/05/it-tools_7b2e55c82696a.png",
+            "nome": "IT Tools",
+            "jianjie": "IT工具。",
+            "GitHub":"https://github.com/CorentinTh/it-tools/"
+        },
+        {
+            "href": "https://td.msgsuite.workers.dev/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/TeamDrive Generator_5df184688eda1.png",
+            "nome": "TeamDrive Generator",
+            "jianjie": "添加谷歌团队盘。",
+            "tg": "https://t.me/msgsuitechat"
+        },
+        {
+            "href": "https://www.waifu2x.net/index.zh-CN.html",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/waifu2x-caffe_52eb14e27e2a8.png",
+            "nome": "waifu2x",
+            "jianjie": "二次元图片修复。",
+            "GitHub":"https://github.com/lltcggie/waifu2x-caffe"
+        },
+        {
+            "href": "https://tiermaker.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/08/TierMaker_12b7a7673d711.png",
+            "nome": "TierMaker",
+            "jianjie": "图片排序网站！",
+            "gw":"https://tierlists.com/"
+        },
+        {
+            "href": "https://xuc.xi-xu.me/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/09/xi-xu.me_782732d36bb8f.png",
+            "nome": "Xget",
+            "jianjie": "Xget 存储库动态加载。",
+            "GitHub":"https://github.com/xixu-me/Xget"
+        },
+        {
+            "href": "https://opencut.app/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/09/OpenCut_6896fe2ebbb25.png",
+            "nome": "OpenCut",
+            "jianjie": "免费开源视频编辑器。",
+            "GitHub":"https://github.com/OpenCut-app/OpenCut"
+        },
+        {
+            "href": "https://xgzb.top/han",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/09/xgzb.top_080e0c8728ace.png",
+            "nome": "字帖生成器",
+            "jianjie": "字帖生成器。"
+        },
+        {
+            "href": "https://moonvy.com/apps/ops/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/09/OpenPromptStudio_7dfbc8d8c2d98.png",
+            "nome": "OpenPromptStudio",
+            "jianjie": "AIGC 提示词。",
+            "GitHub":"https://github.com/Moonvy/OpenPromptStudio"
+        },
+        {
+            "href": "https://iiistudio.github.io/IIIPasswords/",
+            "img": "./image/IIIStudio.png",
+            "nome": "IIIPasswords",
+            "jianjie": "前端本地密码管理器。",
+            "GitHub": "https://github.com/IIIStudio/IIIPasswords"
+        },
+        {
+            "href": "https://iiistudio.github.io/IIIStudio/",
+            "img": "./image/IIIStudio.png",
+            "nome": "IIIStudio",
+            "jianjie": "一个展示页面。",
+            "GitHub": "https://github.com/IIIStudio/IIIStudio"
+        },
+        {
+            "href": "https://iiistudio.github.io/AVGmd/",
+            "img": "./image/IIIStudio.png",
+            "nome": "AVGmd",
+            "jianjie": "md转为avg游戏。",
+            "GitHub": "https://github.com/IIIStudio/AVGmd"
+        },
+        {
+            "href": "https://iiistudio.github.io/Copy-B/",
+            "img": "./image/IIIStudio.png",
+            "nome": "Copy-B",
+            "jianjie": "图片隐藏视频。",
+            "GitHub": "https://github.com/IIIStudio/Copy-B"
+        },
+        {
+            "href": "https://iiistudio.github.io/TypingRain/",
+            "img": "./image/IIIStudio.png",
+            "nome": "TypingRain",
+            "jianjie": "字母雨打字游戏。",
+            "GitHub": "https://github.com/IIIStudio/TypingRain"
+        },
+        {
+            "href": "https://iiistudio.github.io/MorseCodePractice/",
+            "img": "./image/IIIStudio.png",
+            "nome": "MorseCodePractice",
+            "jianjie": "摩斯码键盘练习。",
+            "GitHub": "https://github.com/IIIStudio/MorseCodePractice"
+        },
+        {
+            "href": "https://iiistudio.github.io/CNBIssue/",
+            "img": "./image/IIIStudio.png",
+            "nome": "CNBIssue",
+            "jianjie": "（油猴）脚本。"
+        },
+        {
+            "href": "https://github.com/IIIStudio/AlisoPan",
+            "img": "./image/IIIStudio.png",
+            "nome": "AlisoPan",
+            "jianjie": "阿里资源搜索。"
+        },
+        {
+            "href": "https://iiistudio.github.io/PuzzleGame/",
+            "img": "./image/IIIStudio.png",
+            "nome": "PuzzleGame",
+            "jianjie": "拼图小游戏。",
+            "GitHub": "https://github.com/IIIStudio/PuzzleGame"
+        },
+        {
+            "href": "https://iiistudio.github.io/AzureTTSweb/",
+            "img": "./image/IIIStudio.png",
+            "nome": "AzureTTSweb",
+            "jianjie": "Azure文本转语音。",
+            "GitHub": "https://github.com/IIIStudio/AzureTTSweb"
+        },
+        {
+            "href": "https://iiistudio.github.io/FreeTierListHTML/",
+            "img": "./image/IIIStudio.png",
+            "nome": "FreeTierListHTML",
+            "jianjie": "Tier List 排序页面。",
+            "GitHub": "https://github.com/IIIStudio/FreeTierListHTML"
+        }
+    ],
+    "Watch": [
+        {
+            "href": "https://ddys.pro/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/_268f7ab8d6bca.png",
+            "nome": "低端影视",
+            "jianjie": "电影与剧。"
+        },
+        {
+            "href": "https://bttwoo.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/08/bttwoo_b70359e9ac2c1.png",
+            "nome": "两个BT",
+            "jianjie": "很久以前认识的站长。"
+        },
+        {
+            "href": "https://www.4kvm.tv/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/www.4kvm.tv_f68bd64853957.png",
+            "nome": "4k影视",
+            "jianjie": "电影与剧。"
+        },
+        {
+            "href": "https://www.hainatv.net/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/海纳TV_1bdb86273e80d.png",
+            "nome": "海纳TV",
+            "jianjie": "电影与剧。"
+        },
+        {
+            "href": "https://dick.xfani.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/稀饭动漫_d9c0bcdcbc4c8.png",
+            "nome": "稀饭动漫",
+            "jianjie": "动漫。"
+        },
+        {
+            "href": "https://myself-bbs.com/portal.php",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Myself 動漫_d63d18c30a1ef.png",
+            "nome": "Myself 動漫",
+            "jianjie": "动漫。"
+        },
+        {
+            "href": "https://www.agedm.org/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/AGE动漫_b8e01afe1ac85.ico",
+            "nome": "AGE动漫",
+            "jianjie": "动漫。",
+            "GitHub": "https://github.com/agefanscom/website"
+        },
+        {
+            "href": "https://al.chirmyram.com/",
+            "img": "https://gcore.jsdelivr.net/gh/ChirmyRam/ChirmyRam-OneDrive-Repository/favicon.ico",
+            "nome": "七米蓝的仓库",
+            "jianjie": "电影与剧。",
+            "GitHub": "https://github.com/ChirmyRam/ChirmyRam-OneDrive-Repository"
+        },
+        {
+            "href": "https://www.hmxz.org/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/海绵小站_f83a2e6c22475.png",
+            "nome": "海绵小站",
+            "jianjie": "天翼云盘资源站。"
+        },
+        {
+            "href": "https://www.leijing2.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/天翼小站_a9b10cbb73183.jpg",
+            "nome": "天翼小站",
+            "jianjie": "天翼云盘资源站。"
+        },
+        {
+            "href": "https://www.leijing.xyz/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/雷鲸小站 - 2_0cb4c7947fc45.png",
+            "nome": "雷鲸小站",
+            "jianjie": "天翼云盘资源站。"
+        },
+        {
+            "href": "https://www.hifini.com",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/hifini_103fcd33918c1.png",
+            "nome": "hifini",
+            "jianjie": "音乐下载。"
+        },
+        {
+            "href": "https://komiic.com",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/komiic.com - 2_4bbfd3b80dc95.png",
+            "nome": "漫畫",
+            "jianjie": "漫画。"
+        },
+        {
+            "href": "https://www.idmzj.com",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/_f1a47ee96ebd2.webp",
+            "nome": "动漫之家",
+            "jianjie": "漫画。"
+        },
+        {
+            "href": "https://www.dm5.cn",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/dm5_23052a75989d2.ico",
+            "nome": "动漫屋",
+            "jianjie": "漫画。"
+        },
+        {
+            "href": "https://xmanhua.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/xmanhua.com_80f69007a8fa0.png",
+            "nome": "xmanhua",
+            "jianjie": "漫画。",
+            "gw": "https://www.mangabz.com/"
+        },
+        {
+            "href": "https://www.zerobywav.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/zero搬运网_9774e7489ff78.png",
+            "nome": "zero搬运网",
+            "jianjie": "漫画。",
+            "gw": "https://zerobyw.github.io/"
+        },
+        {
+            "href": "https://mangareader.to/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/mangareader.to_56f92fc6b0957.gif",
+            "nome": "Mangareader",
+            "jianjie": "漫画，英文版。"
+        },
+        {
+            "href": "https://z-library.sk",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Z-Library_76dcc641e4ae6.webp",
+            "nome": "z-library",
+            "jianjie": "书下载。",
+            "tg": "https://t.me/Mytzlibrarybot"
+        },
+        {
+            "href": "https://zh.annas-archive.org/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/_deb94308e4d9e.png",
+            "nome": "安娜的档案",
+            "jianjie": "开放的图书馆。"
+        },
+        {
+            "href": "https://fitgirl-repacks.site/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/fitgirl-repacks.site_492475f12e67e.jpg",
+            "nome": "FitGirl Repacks",
+            "jianjie": "游戏。"
+        },
+        {
+            "href": "https://koyso.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/koyso_b64ccb19d1739.png",
+            "nome": "koyso",
+            "jianjie": "游戏。"
+        },
+        {
+            "href": "https://www.jk.rs/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/日式JK-5-1_1f1566ac0170e.webp",
+            "nome": "日式JK",
+            "jianjie": "图片。"
+        },
+        {
+            "href": "https://wallhere.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/wallhere_85e7a3552b774.png",
+            "nome": "wallhere",
+            "jianjie": "图片壁纸。"
+        },
+        {
+            "href": "https://app.follow.is/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/05/Follow_60983606e5d60.png",
+            "nome": "Follow",
+            "jianjie": "RSS。",
+            "gw": "https://follow.is/",
+            "GitHub": "https://github.com/RSSNext/Folo"
+        },
+        {
+            "href": "https://history.jailhouselawyers.org/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/06/history.jailhouselawyers.org_6e5db68f03e70.png",
+            "nome": "Flashlights",
+            "jianjie": "监狱律师的历史。"
+        }
+    ],
+    "PC": [
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EZkMc6MGBAVPslzUSJAUfsUBg1NFybifNPjiY7L56dLMsA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/geek-uninstaller-boxshot_11d1a79800a0d.png",
+            "nome": "Geek Uninstaller",
+            "jianjie": "免费，快捷、高效的卸载工具。",
+            "gw": "https://geekuninstaller.com/"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EZUa7Fy7lt1Hm7LUWqMNQssBbIfb2vLYZtpIrH9iMSwy8g",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Cisco%20AnyConnect_8fe3f572c3ea2.webp",
+            "nome": "Cisco AnyConnect",
+            "jianjie": "思科 - 版本 v4.7。",
+            "gw": "https://www.cisco.com/",
+            "wenzhang": "#"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EQqnN4TKI7NDoFoqxWBus8cB3i5QxRc6aIBPpavzAFAXbw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/icon-AppleiTunes_f2f509d5cdf31.png",
+            "nome": "iTunes",
+            "jianjie": "版本 v12.6.3.6 - 老版本。"
+        },
+        {
+            "href": "https://apps.microsoft.com/detail/9p2krlmfxf9t?hl=zh-cn&gl=US",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/FluentTerminal_f1e72766fe9fd.png",
+            "nome": "FluentTerminal",
+            "jianjie": "UWP和web技术的终端。",
+            "GitHub":"https://github.com/felixse/FluentTerminal",
+            "wenzhang": "#"
+        },
+        {
+            "href": "https://cloudreve.yun.fi/s/NPHX",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/pyVideoTrans_a39dd9c0b5a05.png",
+            "nome": "pyVideoTrans",
+            "jianjie": "开源视频翻译。",
+            "GitHub":"https://github.com/jianchang512/pyvideotrans"
+        },
+        {
+            "href": "https://github.com/Xmader/aria-ng-gui/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/AriaNg_f06265b042d93.png",
+            "nome": "AriaNgGUI",
+            "jianjie": "Aria2 图形界面客户端。",
+            "GitHub":"https://github.com/Xmader/aria-ng-gui/",
+            "wenzhang":"#"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EbN7sC27QA5HnxuzUlxTuswB2IdHEhKcs1IqAXLYDecJbw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_93500a2534c2f.png",
+            "nome": "极限投屏-",
+            "jianjie": "版本 v1.0.3.4 - 投屏管理安卓软件。",
+            "GitHub":"https://github.com/barry-ran/QtScrcpy"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EV022Vz2DxRNt6lQx5xzIisBPgh5utADX18oHKpEFvBBFw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/oosu10_f7756d53f18d8.png",
+            "nome": "OOSU10",
+            "jianjie": "系统隐私设置。",
+            "gw": "https://www.oo-software.com/en/shutup10"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EdZDM2WGnhtJg0TBuYaAqpQBeyA1iraVvLVIpMcNFccrGQ",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/ClipboardFusion_3da956400367b.webp",
+            "nome": "ClipboardFusion",
+            "jianjie": "版本 v5.3 - 替换修改保存剪贴板文本。",
+            "gw": "https://www.clipboardfusion.com/"
+        },
+        {
+            "href": "https://github.com/mltframework/shotcut/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/shotcut_bb4a063f3c5d9.png",
+            "nome": "shotcut",
+            "jianjie": "视频编辑器。",
+            "GitHub":"https://github.com/mltframework/shotcut",
+            "gw": "https://www.shotcut.org/"
+        },
+        {
+            "href": "https://github.com/ShareX/ShareX/releases",
+            "img": "https://pic2.ziyuan.wang/2023/05/27/d90fb86d04680.png",
+            "nome": "ShareX",
+            "jianjie": "截图软件，配合图床。",
+            "GitHub":"https://github.com/ShareX/ShareX/",
+            "gw": "https://getsharex.com/"
+        },
+        {
+            "href": "https://cloudreve.yun.fi/s/4kCD",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/图压_4c402d459dd05.png",
+            "nome": "图压",
+            "jianjie": "图片压缩软件。",
+            "gw": "https://tuya.xinxiao.tech/"
+        },
+        {
+            "href": "https://cloudreve.yun.fi/s/zlcb",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/MoeKoeMusic_0bae280846e74.png",
+            "nome": "MoeKoe Music",
+            "jianjie": "酷狗第三方客户端。",
+            "GitHub":"https://github.com/iAJue/MoeKoeMusic",
+            "gw": "https://music.moekoe.cn/"
+        },
+        {
+            "href": "https://download.emeditor.info/emed64_22.2.0_portable.zip",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/emeditor_c1e72b1ec18bb.png",
+            "nome": "EmEditor",
+            "jianjie": "TXT编辑器。",
+            "gw": "https://emeditor.info/",
+            "wenzhang": "#"
+        },
+        {
+            "href": "https://cloudreve.yun.fi/s/QeUX",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/ReadCat_7d80f1476164b.png",
+            "nome": "ReadCat",
+            "jianjie": "小说阅读器。",
+            "GitHub":"https://github.com/read-cat/read-cat",
+            "gw": "https://read-cat.top/"
+        },
+        {
+            "href": "https://github.com/zhongyang219/TrafficMonitor/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/TrafficMonitor_d7a2e5a524335.webp",
+            "nome": "TrafficMonitor",
+            "jianjie": "电脑性能浮窗软件。",
+            "GitHub":"https://github.com/zhongyang219/TrafficMonitor"
+        },
+        {
+            "href": "https://github.com/huiyadanli/RevokeMsgPatcher/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/RevokeMsgPatcher_9b2c89a428ec3.png",
+            "nome": "RevokeMsgPatcher",
+            "jianjie": "PC微信/QQ/TIM防撤回补丁。",
+            "GitHub":"https://github.com/huiyadanli/RevokeMsgPatcher"
+        },
+        {
+            "href": "https://github.com/BeyondDimension/SteamTools/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/SteamTools_b52a7dc16bf62.png",
+            "nome": "SteamTools",
+            "jianjie": "Steam 工具箱。",
+            "GitHub":"https://github.com/BeyondDimension/SteamTools",
+            "gw":"https://steampp.net/"
+        },
+        {
+            "href": "https://github.com/d2phap/ImageGlass/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/ImageGlass_8a4a06a26af5c.png",
+            "nome": "ImageGlass",
+            "jianjie": "图片查看器。",
+            "GitHub":"https://github.com/d2phap/ImageGlass",
+            "gw":"https://imageglass.org/"
+        },
+        {
+            "href": "https://github.com/shadowsocks/shadowsocks-windows/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/shadowsocks_1488180909eb9.png",
+            "nome": "shadowsocks",
+            "jianjie": "小飞机。",
+            "GitHub":"https://github.com/shadowsocks/",
+            "gw":"https://shadowsocks.org/"
+        },
+        {
+            "href": "https://github.com/Terminus-Media/jellyfin-media-player/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Terminus%20Player_b251327a93bad.png",
+            "nome": "Terminus Player",
+            "jianjie": "一款Emby和Jellyfin的免费播放器。",
+            "GitHub":"https://github.com/Terminus-Media/jellyfin-media-player"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=Ebj71EJqupBBi25vaVOccv0BJFeFXGYOuQKHKiheXzQQGA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/xshell_c91cdae8de476.png",
+            "nome": "Xshell",
+            "jianjie": "版本 v6.0.0175r",
+            "wenzhang":"#",
+            "gw": "https://www.xshell.com/zh/xshell/"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EY5GpqyjhKRKuYlmyssxUVcBZXXRFefvfh8GQ6vI_qNulw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/xftp_f329f742fc9b1.png",
+            "nome": "Xftp",
+            "jianjie": "版本 v6.0.0169r",
+            "wenzhang":"#",
+            "gw": "https://www.xshell.com/zh/xftp/"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=Ed2Bd91kiVZGtNCp2hyEaXUBcqWlWy0VpMKlHy-flP-G3w",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/PotPlayer_a0f3444fda7cd.png",
+            "nome": "PotPlayer",
+            "jianjie": "版本 v1.7 - 播放器。",
+            "gw": "https://potplayer.daum.net/"
+        },
+        {
+            "href": "https://1drv.ms/u/s!ArS_uiNSvL-swnSUHOpxUPIrI3JD?e=daeYRa",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/adobe_photoshop_0ce709000b967.png",
+            "nome": "Photoshop CC 2018",
+            "jianjie": "需要以前的破解软件。"
+        },
+        {
+            "href": "https://1drv.ms/u/s!ArS_uiNSvL-swwv7ETzJLYPi4yXj?e=JWbicb",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/adobe_illustrator_01118294af65f.png",
+            "nome": "Illustrator CC 2018",
+            "jianjie": "需要以前的破解软件。"
+        },
+        {
+            "href": "https://1drv.ms/u/s!ArS_uiNSvL-siBtyAl00WYFcGpt-?e=5dPmj1",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Adobe_eeab82d00a5ea.png",
+            "nome": "Adobe 激活软件",
+            "jianjie": "Adobe 2018之前破解工具。"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EbXszdcZuxBCvcbQjPWk9CABsNq3kfHwyrHr6x7-7Wzb6w",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Cheat%20Engine_39ffbc926a38f.png",
+            "nome": "Cheat Engine",
+            "jianjie": "版本 v7.3 汉化 游戏的修改器。",
+            "gw": "https://www.cheatengine.org/",
+            "GitHub":"https://github.com/cheat-engine/cheat-engine"
+        },
+        {
+            "href": "https://github.com/dnSpy/dnSpy/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/dnSpy_c0b010b40367b.webp",
+            "nome": "dnSpy",
+            "jianjie": ".NET语言编程工具。",
+            "GitHub":"https://github.com/dnSpy/dnSpy/"
+        },
+        {
+            "href": "https://github.com/SeriousCache/UABE/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/UABE_59c00f14fcfcc.png",
+            "nome": "UABE",
+            "jianjie": "Asset Bundle Extractor游戏资源提取。",
+            "GitHub":"https://github.com/SeriousCache/UABE/"
+        },
+        {
+            "href": "https://github.com/morkt/GARbro/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/GARbro_b174fc5958e17.jpg",
+            "nome": "GARbro",
+            "jianjie": "视觉小说解压文件的工具软件。",
+            "GitHub":"https://github.com/morkt/GARbro/"
+        },
+        {
+            "href": "https://github.com/Perfare/AssetStudio/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/AssetStudio_f15817dff5271.png",
+            "nome": "AssetStudioGUI",
+            "jianjie": "查看和导出Unity游戏中打包的AB资源。",
+            "GitHub":"https://github.com/Perfare/AssetStudio/"
+        },
+        {
+            "href": "https://github.com/renpy/renpy/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Ren'Py_a5d6519a4880f.png",
+            "nome": "Ren'Py",
+            "jianjie": "Ren'Py视觉小说引擎。",
+            "GitHub":"https://github.com/renpy/renpy/",
+            "gw": "https://www.renpy.org/"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EbGmMszQazNBrH2KhkEZOuMBnPLYXGPG7cmHJegRe21pSQ",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Fiddler_dc8b91f1fcd2a.png",
+            "nome": "Fiddler",
+            "jianjie": "版本 v5.0 中文汉化 https抓包软件。",
+            "gw": "https://www.telerik.com/fiddler"
+        },
+        {
+            "href": "https://github.com/rclone/rclone/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/rclone_1a933d19a10bc.png",
+            "nome": "rclone",
+            "jianjie": "第三方网盘连接。",
+            "gw": "https://rclone.org/",
+            "wenzhang": "#",
+            "GitHub": "https://github.com/rclone/rclone"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EbAiqEQieEhPv9XoFgHvH_EBWP2TtWGYSPozgSlobqnSRA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_a5dd5a4aee267.webp",
+            "nome": "格式工厂",
+            "jianjie": "版本 v4.9.5 纯净版 - 格式文件转换。",
+            "gw": "http://www.pcgeshi.com/"
+        },
+        {
+            "href": "https://github.com/NickeManarin/ScreenToGif/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/ScreenToGif_1fc161bd3beeb.png",
+            "nome": "ScreenToGif",
+            "jianjie": "GIF制作。",
+            "GitHub":"https://github.com/NickeManarin/ScreenToGif",
+            "gw":"https://www.screentogif.com/"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EYi3CdyhqrNNmiFuHla6w8MBKPT-BPGq2VBP8dK3nXDBEQ",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_8049eaec96823.webp",
+            "nome": "按键精灵",
+            "jianjie": "2014.00.14123 - 鼠标键盘自动化。",
+            "gw": "http://m.anjian.com/"
+        },
+        {
+            "href": "https://www.autohotkey.com/docs/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/autohotkey_0272ef0393809.png",
+            "nome": "AutoHotkey",
+            "jianjie": "命令调用自动化操作。",
+            "wenzhang":"#",
+            "gw": "https://www.autohotkey.com/"
+        },
+        {
+            "href": "https://github.com/lltcggie/waifu2x-caffe/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/waifu2x-caffe_52eb14e27e2a8.png",
+            "nome": "waifu2x-caffe",
+            "jianjie": "二次元图像修复。",
+            "GitHub":"https://github.com/lltcggie/waifu2x-caffe"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EYAnjbYriyFFi04fNkCrRc8BDGJEdE3pjTw_08QapNc9xw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/AirExplorer Pro_546081d9ee5be.webp",
+            "nome": "AirExplorer 2.8.1 pro",
+            "jianjie": "多网盘管理工具。",
+            "gw": "https://www.airexplorer.net/zh-cn/"
+        },
+        {
+            "href": "https://www.123pan.com/s/qdYHjv-4ESkd",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_a54f9328939e0.jpg",
+            "nome": "雷电模拟器",
+            "jianjie": "版本 v9.0 去广告 - 手机模拟器。",
+            "gw": "https://www.ldmnq.com/"
+        },
+        {
+            "href": "https://wwa.lanzouj.com/idgsEnnof2h?=%E5%AF%86%E7%A0%81:9bcq",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Bandicam_baba40ff22ff2.webp",
+            "nome": "Bandicam",
+            "jianjie": "v5.1.0.1822 - VIP 便携版,录频软件。",
+            "gw": "https://www.bandicam.com/tw/"
+        },
+        {
+            "href": "https://github.com/hellzerg/optimizer/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/optimizer_f19da071be13c.png",
+            "nome": "optimizer",
+            "jianjie": "微软系统优化设置。",
+            "GitHub":"https://github.com/hellzerg/optimizer"
+        },
+        {
+            "href": "https://github.com/Planshit/Tai/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/GitHub_29f798452a082.png",
+            "nome": "Tai",
+            "jianjie": "Windows使用时长统计。",
+            "GitHub":"https://github.com/Planshit/Tai"
+        },
+        {
+            "href": "https://github.com/xinntao/Real-ESRGAN/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/Real-ESRGAN_a59b447d210e1.png",
+            "nome": "Real-ESRGAN",
+            "jianjie": "图像/视频修复。",
+            "GitHub":"https://github.com/xinntao/Real-ESRGAN"
+        },
+        {
+            "href": "https://github.com/qier222/YesPlayMusic/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/YesPlayMusic_a857879e0ccea.png",
+            "nome": "YesPlayMusic",
+            "jianjie": "第三方网易云播放器。",
+            "GitHub":"https://github.com/qier222/YesPlayMusic"
+        },
+        {
+            "href": "https://github.com/KurtBestor/Hitomi-Downloader/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/Hitomi-Downloader_f64a64249b5e5.png",
+            "nome": "Hitomi-Downloader",
+            "jianjie": "集合网站资源下载器。",
+            "GitHub":"https://github.com/KurtBestor/Hitomi-Downloader"
+        },
+        {
+            "href": "https://github.com/hanmin0822/MisakaTranslator/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/御坂翻译器_0cf251a9200a3.png",
+            "nome": "御坂翻译器",
+            "jianjie": "Galgame/文字游戏/漫画 翻译。",
+            "GitHub":"https://github.com/hanmin0822/MisakaTranslator"
+        },
+        {
+            "href": "https://github.com/PantsuDango/Dango-Translator/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/团子翻译器_21797d6ba344a.jpg",
+            "nome": "团子翻译器",
+            "jianjie": "OCR 翻译器。",
+            "GitHub":"https://github.com/PantsuDango/Dango-Translator",
+            "gw":"https://translator.dango.cloud/"
+        },
+        {
+            "href": "https://github.com/mikf/gallery-dl/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/gallery-dl_772a1013bac45.png",
+            "nome": "gallery-dl",
+            "jianjie": "多个图像托管网站下载。",
+            "GitHub":"https://github.com/mikf/gallery-dl",
+            "gw": "https://gdl-org.github.io/docs/"
+        },
+        {
+            "href": "https://github.com/JoeanAmier/XHS-Downloader/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/XHS-Downloader_09e59e9378e5d.png",
+            "nome": "XHS-Downloader",
+            "jianjie": "小红书链接提取/作品采集工具。",
+            "GitHub":"https://github.com/JoeanAmier/XHS-Downloader"
+        },
+        {
+            "href": "https://github.com/xuejianxianzun/PixivBatchDownloader/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/Pixiv_c0e2bee0ac141.jpg",
+            "nome": "PixivBatchDownloader",
+            "jianjie": "Chrome 扩展，批量下载 Pixiv。",
+            "GitHub":"https://github.com/xuejianxianzun/PixivBatchDownloader"
+        },
+        {
+            "href": "https://github.com/iyear/tdl/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/tdl_c4af6dff14151.png",
+            "nome": "tdl",
+            "jianjie": "Telegram Downloader。",
+            "GitHub":"https://github.com/iyear/tdl",
+            "gw":"https://docs.iyear.me/tdl/"
+        },
+        {
+            "href": "https://github.com/nilaoda/N_m3u8DL-CLI/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/GitHub_29f798452a082.png",
+            "nome": "N_m3u8DL-CLI",
+            "jianjie": "m3u8 downloader。",
+            "GitHub":"https://github.com/nilaoda/N_m3u8DL-CLI",
+            "gw":"https://nilaoda.github.io/N_m3u8DL-CLI/"
+        },
+        {
+            "href": "https://github.com/unkmonster/tmd/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Twitter_e53032b4ee1ca.png",
+            "nome": "Twitter",
+            "jianjie": "Twitter 多线程下载器。",
+            "GitHub":"https://github.com/unkmonster/tmd/",
+            "wenzhang":"#",
+            "gw": "https://x.com/"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EcYtSPZj1l9Nv0Clmo-OqWcBOIIs84pNCKpP0rLCwmYoFQ",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/python_bc9b98eee459a.png",
+            "nome": "宏录制器",
+            "jianjie": "Python 宏录制器。",
+            "wenzhang":"#",
+            "gw": "https://www.52pojie.cn/thread-1995449-1-1.html"
+        },
+        {
+            "href": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/cloud_storage-32_c0dcc79e64ca8.png",
+            "nome": "WEBP",
+            "jianjie": "谷歌 webp。"
+        },
+        {
+            "href": "https://www.mefo.cc/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/mefo.cc_c2ce2572b725a.png",
+            "nome": "Mefo",
+            "jianjie": "卡片笔记。"
+        },
+        {
+            "href": "https://store.rg-adguard.net/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/store.rg-adguard.net_69850c891c163.png",
+            "nome": "Microsoft Store",
+            "jianjie": "微软商店软件下载。"
+        },
+        {
+            "href": "https://yimuhe-my.sharepoint.com/personal/img_wofwo_cn/_layouts/52/download.aspx?share=EXnyGC9H4slAiZ_INhlcJ6gB3lgoACrPZ3t8bqFn3e2BKA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/NetLimiter_04b4cc8122ba7.png",
+            "nome": "NetLimiter",
+            "jianjie": "网络流量限速与防火墙工具 KeyGen",
+            "wenzhang": "#",
+            "gw": "https://www.netlimiter.com/ ",
+            "GitHub":"https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718"
+        },
+        {
+            "href": "https://www.qbittorrent.org/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/qbittorrent_363f674fbd7cc.png",
+            "nome": "qBittorrent",
+            "jianjie": "磁力下载 - 链接里有可以手机使用。",
+            "wenzhang": "#"
+        },
+        {
+            "href": "https://github.com/rime/weasel/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/小狼毫输入法_d570796820a40.png",
+            "nome": "weasel",
+            "jianjie": "小狼毫输入法。",
+            "GitHub":"https://github.com/rime/weasel",
+            "gw":"https://rime.im/"
+        },
+        {
+            "href": "https://github.com/mihomo-party-org/mihomo-party/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/mihomo-party_85af308c6db2b.png",
+            "nome": "mihomo-party",
+            "jianjie": "Another Mihomo GUI。",
+            "GitHub":"https://github.com/mihomo-party-org/mihomo-party",
+            "gw":"https://mihomo.party/"
+        },
+        {
+            "href": "https://www.torproject.org/zh-CN/download/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/Tor 浏览器_8506de4a4e4ad.png",
+            "nome": "Tor 浏览器",
+            "jianjie": "洋葱游览器。",
+            "gw":"https://www.torproject.org/zh-CN/download/"
+        }
+        
+    ],
+    "Android": [
+        {
+            "href": "https://f-droid.org/zh_Hans/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/F-Droid_185462c22aca1.png",
+            "nome": "F-Droid",
+            "jianjie": "Android软件下载。"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EUEpuho_KydChY22ejUOEp4B2bfA60PJOaSXfuG6LSqEjw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Httpcanary_6e5f67921179f.png",
+            "nome": "Httpcanary",
+            "jianjie": "网络包抓取和分析工具。",
+            "GitHub":"https://github.com/MegatronKing/HttpCanary",
+            "gw": "https://reqable.com/zh-CN/"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EYEmqrrr04JGriH6zK5f6jEBKob3ucvT00kueV1yAURFWQ",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Termux_8f3b635866606.webp",
+            "nome": "Termux",
+            "jianjie": "Android的终端模拟器应用程序。",
+            "gw": "https://termux.dev/cn/index.html",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=com.termux&hl=zh_CN",
+            "GitHub":"https://github.com/termux/termux-app/releases"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=Ef3AYz8bd3ROvhsRgcDDMFMBE89Hf0GHCs_kXR1Jaw5mAw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Termux_8f3b635866606.webp",
+            "nome": "ZeroTermux",
+            "jianjie": "基于Termux进行修改。",
+            "GitHub":"https://github.com/hanxinhao000/ZeroTermux"
+        },
+        {
+            "href": "https://github.com/jing332/AListFlutter/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/alist_d3b759c7b0cea.png",
+            "nome": "AListFlutter",
+            "jianjie": "AList 安卓版本。",
+            "GitHub":"https://github.com/jing332/AListFlutter/"
+        },
+        {
+            "href": "https://github.com/SuperMonster003/AutoJs6/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/AutoJs6_43f8902ae258f.png",
+            "nome": "AutoJs6",
+            "jianjie": "JavaScript 自动化工具。",
+            "GitHub":"https://github.com/SuperMonster003/AutoJs6/",
+            "gw": "https://docs.autojs6.com/#/"
+        },
+        {
+            "href": "https://github.com/Xmader/aria-ng-gui-android/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/AriaNg_f06265b042d93.png",
+            "nome": "AriaNgGUI",
+            "jianjie": "Aria2 图形界面客户端。",
+            "GitHub":"https://github.com/Xmader/aria-ng-gui-android/"
+        },
+        {
+            "href": "https://github.com/FBlackBox/BlackBox/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/BlackBox_695c7f4d78fe7.png",
+            "nome": "BlackBox",
+            "jianjie": "克隆和运行虚拟应用程序。",
+            "GitHub":"https://github.com/FBlackBox/BlackBox/"
+        },
+        {
+            "href": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/NekoBox for Android_b65d5aa91139d.webp",
+            "nome": "NekoBox",
+            "jianjie": "NekoBox for Android。",
+            "GitHub":"https://github.com/MatsuriDayo/NekoBoxForAndroid",
+            "gw":"https://matsuridayo.github.io/",
+            "tg":"https://t.me/Matsuridayo",
+            "GooglePlay":"https://play.google.com/store/apps/details?id=moe.nb4a"
+        },
+        {
+            "href": "https://github.com/topjohnwu/Magisk/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Magisk_06648eef8fd33.png",
+            "nome": "Magisk",
+            "jianjie": "面具,Root、启动脚本工具。",
+            "GitHub":"https://github.com/topjohnwu/Magisk/"
+        },
+        {
+            "href": "https://github.com/connectbot/connectbot/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/ConnectBot_5811f2b46d6a0.webp",
+            "nome": "ConnectBot",
+            "jianjie": "SSH客户端。",
+            "GitHub":"https://github.com/connectbot/connectbot/",
+            "gw": "https://connectbot.org/",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=org.connectbot&hl=zh_CN"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EfnI9XrWzJtBpgki2zqTTLYBKJfcXb0i6o-BKA4cjMyeQg",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/VR%20Media_0208b55c87947.webp",
+            "nome": "VR Media Player",
+            "jianjie": "版本 v2.2 虚拟现实媒体播放器。",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=com.xojot.vrplayer&hl=zh_CN"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EdtyDSCTP5hOqlGMCJDFyNoBzt67KD7H7MLIFw9X4aQ7sw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Kiwi%20Browser_eb95ea38aaf3e.webp",
+            "nome": "Kiwi Browser",
+            "jianjie": "猕猴桃浏览器可以安装油猴插件。",
+            "gw": "https://kiwibrowser.com/",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=com.kiwibrowser.browser"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EcTUfsx9UlpGjOgCunBuyOwBDhhdbaoN5H5IFCvyRBXzmA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/NMM%20File%20Manager_3f9d017ce3a5f.webp",
+            "nome": "NMM",
+            "jianjie": "NMM 文本编辑器。",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=in.mfile&hl=zh_CN"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EfFwDm0K4CFPi1zuJOQTCDMBEDv0m_L8sWK5jDxZOhTPjg",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Pydroid%203_4807b58bbc97f.webp",
+            "nome": "Pydroid 3",
+            "jianjie": "IDE for Python 3。",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=zh_CN"
+        },
+        {
+            "href": "https://github.com/rongzhiy/LiTiaotiao/releases/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_715707abc2bea.png",
+            "nome": "李跳跳",
+            "jianjie": "自动跳过广告app。",
+            "GitHub": "https://github.com/rongzhiy/LiTiaotiao"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EYdqKSNLLyNNpIpJY4ga7vwBODZjSlp_u30aOnV5Iet1Gg",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_378c1c2925d6b.png",
+            "nome": "安卓迅雷",
+            "jianjie": "版本 v6.0.0 - BT下载。"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=Ecc5tigTP2NOm-D6qZaJRvQB2vOtPa5-2ZURYDdoZLp9nA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/ZArchiver_037ee9690c5ab.webp",
+            "nome": "ZArchiver ",
+            "jianjie": "版本 v0.9.4 - 解压软件。",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver.pro&hl=zh_CN"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EcLit2NbToFJsqlX4p0Z2V8BlMTd6pH8-GiHyDZAYS_NeA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_ee52af3a385a6.png",
+            "nome": "百度贴吧内部版",
+            "jianjie": "版本 v1.0.5 - 贴吧。"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EQEQFOv0bZNDnfk60iufvdcB32-BCy_0w4QseBO3WeC13A",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/1DM_3c0ffa6a8bd37.webp",
+            "nome": "1DM+",
+            "jianjie": "下载管理器。",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=idm.internet.download.manager.plus&hl=zh_CN"
+        },
+        {
+            "href": "https://github.com/gedoor/legado/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_0cea072a7edb1.png",
+            "nome": "阅读",
+            "jianjie": "自定义来源阅读TXT。",
+            "GitHub":"https://github.com/gedoor/legado/",
+            "gw":"https://gedoor.github.io/",
+            "wenzhang":"#"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EdvoZ7CqBb5NqJzKjwvzBXkBbDDJ0aTHkUO-0peH1SfYIA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/MixFile_087b687d8abf3.png",
+            "nome": "MixFile",
+            "jianjie": "版本 v1.6.1  - 加密网盘",
+            "GitHub": "https://gitlab.com/ivgeek/mixfile",
+            "gw": "https://hostloc.com/thread-1357800-1-1.html"
+        },
+        {
+            "href": "https://repo.trojan-cdn.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Clash_dd9221193a21f.webp",
+            "nome": "Clash",
+            "jianjie": "Clash for Android。",
+            "wenzhang":"#",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=com.github.kr328.clash",
+            "tg": "https://t.me/Clashclient"
+        },
+        {
+            "href": "https://github.com/signalapp/Signal-Android/releases",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/Signal_7562aea21ac79.webp",
+            "nome": "Signal",
+            "jianjie": "加密聊天软件。",
+            "GitHub": "https://github.com/signalapp/Signal-Android/",
+            "GooglePlay": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&hl=zh",
+            "gw": "https://signal.org/"
+        }
+        
+    ],
+        "URL": [
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/:f:/g/personal/betros_alumni_albany_edu/EuFrJFekoX5Eq5t73MN1tVwBhoDHqRpMniTB2btXIGgogA",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/onedrive_e060fb4d64aea.png",
+            "nome": "软件",
+            "jianjie": "自用软件库。"
+        },
+        {
+            "href": "https://app.alice.ws/compute",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/alice_a8c918f4d7541.png",
+            "nome": "alice",
+            "jianjie": "免费服务器。",
+            "tg": "https://t.me/AS215355_NOC"
+        },
+        {
+            "href": " https://console.run.claw.cloud/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/console.run.claw.cloud_eee57d68d4f16.png",
+            "nome": "Claw Cloud Run",
+            "jianjie": "免费部署容器。"
+        },
+        {
+            "href": "https://alumnialbany-my.sharepoint.com/:x:/g/personal/betros_alumni_albany_edu/ESKHawc41iROn5c_PWXQLEoBy-zAbFfsmMb32fW-OpEc9g?e=YFfZKw",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/sharepoint_623b37893dfb6.png",
+            "nome": "阿里网盘",
+            "jianjie": "阿里网盘分享链接采集，密：anlnet。"
+        },
+        {
+            "href": "https://moe.al/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/moe.al_6b9406764b923.png",
+            "nome": "萌 moe.al - Frp",
+            "jianjie": "免费Frp。",
+            "gw": "https://www.bilibili.com/video/av113516371509944/"
+        },
+        {
+            "href": "https://10001.linglong521.cn/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/linglong_ffc785f5b58d0.png",
+            "nome": "电不信",
+            "jianjie": "付费 - 百度网盘在线解析。",
+            "gw": "https://new.linglong521.cn/",
+            "wenzhang": "https://anlnet.notion.site/ae9f8314e3b84ca7ba2cbdb4c3e4e358",
+            "QQ": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=PvehWXagulrZh3eiLRcuKUUHaUMQbZmo&authKey=Ky2zEvwN+t01eIPzJm+CFO33lFUQna1fKM7OPg2U5FObfNUhR8TKQ3Ag/pAfgdkT&noverify=0&group_code=996475337"
+        },
+        {
+            "href": "https://xiazai.xn--vzyr4p.top/user",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_8f3b14147debc.png",
+            "nome": "劳琦峻",
+            "jianjie": "每日一次 - 百度网盘在线解析。"
+        },
+        {
+            "href": "http://119.91.62.135:5705/lives",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/tv_b4e1d986e463b.png",
+            "nome": "电视源",
+            "jianjie": "电视TV源。"
+        },
+        {
+            "href": "https://whatslink.info/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/whatslink.info_b6c6a47a5c785.webp",
+            "nome": "What's the link?",
+            "jianjie": "磁力查询。"
+        },
+        {
+            "href": "https://paperkitemagnet.top/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/PaperkiteBT_842f9d48aa526.jpg",
+            "nome": "∆PaperkiteBT",
+            "jianjie": "网盘磁力搜索。",
+            "tg": "https://t.me/paperkitechat",
+            "QQ": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=4-UIbD5-zhx6ihZyDqzcSl5ixrOOduP9&authKey=ieODF1UAwX1t0ZVXIF%2F0t0swvi8gbpnS6B5Rqt6RzS%2B5aHVAJ4rvoDTYpQ5KBcI9&noverify=0&group_code=187860349"
+        },
+        {
+            "href": "https://bt.pyth.onl/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/bt.pyth.onl_625a7521211da.png",
+            "nome": "Yiove 磁力",
+            "jianjie": "磁力搜索引擎。",
+            "tg": "https://t.me/YioveChat"
+        },
+        {
+            "href": "https://chat.deepseek.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/DeepSeek_cd687dd24a7ee.png",
+            "nome": "DeepSeek",
+            "jianjie": "AI。"
+        },
+        {
+            "href": "https://chatgpt.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/chatgpt_a881d28f45209.png",
+            "nome": "ChatGPT",
+            "jianjie": "AI。"
+        },
+        {
+            "href": "https://claude.ai/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/claude_30406301279cd.png",
+            "nome": "Claude",
+            "jianjie": "AI。"
+        },
+        {
+            "href": "https://www.office.com/chat/?auth=2",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Copilot_ba689cc9e04ac.png",
+            "nome": "Copilot",
+            "jianjie": "微软AI，个人的很拉。",
+            "gw": "https://copilot.microsoft.com/",
+            "tg": "https://t.me/CopilotOfficialBot"
+            
+        },
+        {
+            "href": "https://glarity.app/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/Glarity_dc0234d656e09.png",
+            "nome": "Glarity",
+            "jianjie": "AI总结视频及翻译网页。"
+        },
+        {
+            "href": "https://character.ai/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/character_70b8a34a55685.ico",
+            "nome": "character.ai",
+            "jianjie": "AI聊天机器人。"
+        },
+        {
+            "href": "https://openrouter.ai/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/openrouter_9b704bb572e5f.png",
+            "nome": "OpenRouter",
+            "jianjie": "AI 接口。"
+        },
+        {
+            "href": "https://portal.azure.com/#home",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/azure_4065985029ded.png",
+            "nome": "Microsoft Azure",
+            "jianjie": "主页 - Microsoft Azure。"
+        },
+        {
+            "href": "https://account.live.com/consent/Manage",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/microsoft-color_2bc1088cae6ae.png",
+            "nome": "微软应用授权管理",
+            "jianjie": "你已授予访问权限的应用和服务。"
+        },
+        {
+            "href": "https://aad.portal.azure.com",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/MicrosoftEntra_49f546baee979.png",
+            "nome": "Microsoft Entra",
+            "jianjie": "Azure Active Directory 管理中心。"
+        },
+        {
+            "href": "https://speech.microsoft.com/portal?tenantid=8385e035-3d47-480a-b452-12d6ccd4a897",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/azure_4065985029ded.png",
+            "nome": "Speech Studio",
+            "jianjie": "Azure 认知服务语音。"
+        },
+        {
+            "href": "https://www.microsoftazuresponsorships.com/Balance",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/azure_4065985029ded.png",
+            "nome": "Azure 余额查询",
+            "jianjie": "国区Azure教育余额查询。"
+        },
+        {
+            "href": "https://developer.microsoft.com/zh-cn/microsoft-365/profile",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Microsoft_365_725ffa3446ea9.png",
+            "nome": "E5",
+            "jianjie": "Microsoft 365 开发人员中心。"
+        },
+        {
+            "href": "https://signup.microsoft.com/get-started/signup?isAdminSignup=true&products=f30db892-07e9-47e9-837c-80727f46fd3d&ali=1&brandingId=28b276fb-d2a0-4379-a7c0-57dce33da0f9",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/power-automate_c34134bcc069d.png",
+            "nome": "Power Automate",
+            "jianjie": "Microsoft Power Automate Free。"
+        },
+        {
+            "href": "https://admin.microsoft.com/Adminportal/Home?#/catalog/offer-details/power-bi-free-/2298CC31-3BDF-44BB-B593-B3EFADA5BAC0",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Power BI_9b72972577f04.png",
+            "nome": "Power BI 免费版本",
+            "jianjie": "Microsoft Fabric (Free)免费购买。"
+        },
+        {
+            "href": "https://portal.office.com/AdminPortal/Home#/licenses",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/office-365_22b4179066792.png",
+            "nome": "Office 365 教育版",
+            "jianjie": "加入验证Office 365 教育订阅。"
+        },
+        {
+            "href": "https://support.serviceshub.microsoft.com/supportforbusiness/manage",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/microsoft-color_2bc1088cae6ae.png",
+            "nome": "Microsoft 企业工单",
+            "jianjie": "微软服务中心工单。"
+        },
+        {
+            "href": "https://polymarket.com/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/Polymarket_56b86613b2c45.png",
+            "nome": "Polymarket",
+            "jianjie": "全球最大的预测市场。"
+        },
+        {
+            "href": "https://signup.cloud.oracle.com",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Oracle_e7e54dd549664.png",
+            "nome": "甲骨文",
+            "jianjie": "甲骨文注册。"
+        },
+        {
+            "href": "https://community.ibm.com/zsystems/form/l1cc-oss-vm-request/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/01/IBM_fe55a7de6d231.png",
+            "nome": "IBM LinuxONE",
+            "jianjie": "开源云虚拟机申请。"
+        },
+        {
+            "href": "https://www.mtcgame.com/zh-CN",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/MTCGAME_eb753faee4c85.png",
+            "nome": "MTCGAME",
+            "jianjie": "兑换代码或充值。"
+        },
+        {
+            "href": "https://plati.market/games/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/12/Plati.Market_8219838391de1.png",
+            "nome": "Plati.Market",
+            "jianjie": "游戏兑换码购买。"
+        },
+        {
+            "href": "https://itch.io/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/itchio_8a0a89d92ce7e.png",
+            "nome": "itch.io",
+            "jianjie": "独立游戏。"
+        },
+        {
+            "href": "https://sms-activate.guru/cn",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/SMS-Activate_c05924aed9b5b.png",
+            "nome": "SMS-Activate",
+            "jianjie": "虚拟号码服务。"
+        },
+        {
+            "href": "https://character.ai/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/11/www.gequbao.com_06d6d7ec8d4fa.png",
+            "nome": "歌曲宝",
+            "jianjie": "歌曲下载。"
+        },
+        {
+            "href": "https://awesome-selfhosted.net/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/03/awesome-selfhosted_2265d53f54949.png",
+            "nome": "awesome-selfhosted",
+            "jianjie": "托管项目。",
+            "GitHub": "https://github.com/awesome-selfhosted/awesome-selfhosted"
+        },
+        {
+            "href": "https://rargb.to/",
+            "img": "https://pic2.ziyuan.wang/user/miss/2025/04/rargb_0735fdf566160.png",
+            "nome": "rargb.to",
+            "jianjie": "TB种子。"
+        },
+        {
+            "href": "https://github.com/mokeyjay/Yandere-crawler",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Yande.re_8431894f9413c.jpg",
+            "nome": "Yande.re",
+            "jianjie": "二次元图片爬取。",
+            "Python": "https://github.com/mokeyjay/Yandere-crawler",
+            "GitHub": "https://github.com/mokeyjay/Yandere-crawler"
+        },
+        {
+            "href": "https://github.com/Crissium/35photo-downloader",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/35photo_1dc561a98cb3d.webp",
+            "nome": "35photo",
+            "jianjie": "35photo图片爬取。",
+            "Python": "https://github.com/Crissium/35photo-downloader",
+            "GitHub": "https://github.com/Crissium/35photo-downloader"
+        },
+        {
+            "href": "https://github.com/addycb/Pimeyes-Free-POC",
+            "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Pimeyes_d7d76ae579a5f.webp",
+            "nome": "Pimeyes",
+            "jianjie": "人脸搜索引擎。",
+            "Python": "https://github.com/addycb/Pimeyes-Free-POC",
+            "GitHub": "https://github.com/addycb/Pimeyes-Free-POC"
+            
+        }
+        
+    ]
+}
