@@ -42,7 +42,7 @@
 
 ## 搭建
 
-复刻 然后修改参数，然后添加 GitHub Pages 网站。
+复刻 然后修改参数，然后添加 GitHub Pages 网站
 
 Vercel一键部署:
 
