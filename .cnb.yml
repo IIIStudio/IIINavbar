@@ -13,6 +13,6 @@ main:
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN} # 从密钥库env.yml获取的令牌
             branch: main                 # 目标分支
-            force: false                 # 暂时不用强制推送
+            force: true                  # true，强制推送
             push_tags: false             # 暂时不推送标签
             sync_mode: rebase
