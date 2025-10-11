@@ -1,26 +1,45 @@
+# CNB 流水线配置文件（示例）
+name: IIIStudio_Navbar_Sync
+version: '1.0'
+
 main:
-  push:
-    - services:
-        - docker
-      imports:
-        - https://cnb.cool/IIIStudio/key/-/blob/main/github/env.yml
-      stages:
-        - name: 配置Git用户信息
-          image: alpine/git
-          commands:
-            - git config --global user.name "IIIStudio"
-            - git config --global user.email "IIIStudio@qq.com"
-        - name: 同步到GitHub
-          image: tencentcom/git-sync
-          settings:
-            target_url: https://github.com/IIIStudio/IIINavbar.git
-            auth_type: https
-            username: ${GIT_USERNAME} 
-            password: ${GIT_ACCESS_TOKEN}
-            branch: main
-            force: true                   # true，强制推送
-            push_tags: false              # 暂时不推送标签
-            git_user: "IIIStudio"
-            git_email: "IIIStudio@qq.com" 
-            #sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
-            sync_mode: rebase
+  # 定义需要导入的依赖（如环境变量、公共模块等）
+  imports:
+    - https://cnb.cool/IIIStudio/key/-/blob/main/github/env.yml  # 假设包含 GIT_USERNAME/GIT_ACCESS_TOKEN 等变量
+
+  # 定义流水线执行阶段
+  stages:
+    # 阶段 1：配置 Git 提交用户信息（局部作用域）
+    - name: 配置Git用户信息
+      image: alpine/git  # 使用轻量级 Git 工具镜像
+      commands:
+        # 关键：仅配置当前仓库的 Git 用户信息（非全局）
+        # --global 会修改用户级配置（~/.gitconfig），可能导致环境残留问题
+        - echo "正在配置当前仓库的 Git 用户信息..."
+        - git config user.name "IIIStudio"       # 提交用户名
+        - git config user.email "IIIStudio@qq.com" # 提交邮箱
+        # 可选：验证配置是否生效（调试用）
+        - git config --local user.name          # 输出当前仓库的用户名
+        - git config --local user.email         # 输出当前仓库的邮箱
+
+    # 阶段 2：同步代码到 GitHub
+    - name: 同步到GitHub
+      image: tencentcom/git-sync  # 官方推荐的 Git 同步插件镜像
+      settings:
+        # 同步目标仓库信息（需与本地仓库关联）
+        target_url: https://github.com/IIIStudio/IIINavbar.git  # 目标仓库 URL
+        auth_type: https             # 认证方式（https 或 ssh）
+        username: ${GIT_USERNAME}    # 从环境变量注入 GitHub 用户名
+        password: ${GIT_ACCESS_TOKEN} # 从环境变量注入 GitHub 访问令牌（需有仓库写入权限）
+        branch: main                 # 同步分支
+        force: true                  # 强制推送（覆盖远程历史，谨慎使用）
+        push_tags: false             # 不推送标签
+        git_user: "IIIStudio"        # 插件显式指定提交用户名（优先级高于全局配置）
+        git_email: "IIIStudio@qq.com" # 插件显式指定提交邮箱（优先级高于全局配置）
+        # sync_strategy: "overwrite" # 备用：强制覆盖冲突文件（与 force 参数互斥，按需选择）
+        sync_mode: rebase            # 推送策略：rebase（变基）或 merge（合并），推荐 rebase 保持提交历史整洁
+
+      # 调试命令：验证同步后的提交信息
+      commands:
+        - echo "同步完成后，验证最新提交的作者信息："
+        - git log -1 --pretty=format:"作者：%an <%ae>"  # 输出最新提交的用户名和邮箱
