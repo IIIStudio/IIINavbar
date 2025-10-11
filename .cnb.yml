@@ -3,7 +3,7 @@ main:
     - services:
         - docker
       imports:
-        - https://cnb.cool/IIIStudio/key/env.yml
+        - https://cnb.cool/IIIStudio/key/-/blob/main/github/env.yml
       stages:
         - name: 同步到GitHub
           image: tencentcom/git-sync
