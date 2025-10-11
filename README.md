@@ -4,7 +4,7 @@
 ## 使用方法
 修改icon.json文件，添加或删除icon
 
-修改collect.json文件，添加或删除收藏地址
+修改collect.json文件，添加或删除收藏地址 
 
 参数说明
 ```json
