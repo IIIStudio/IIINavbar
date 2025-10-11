@@ -15,4 +15,8 @@ main:
             branch: main                 # 目标分支
             force: true                  # true，强制推送
             push_tags: false             # 暂时不推送标签
-            sync_strategy: "overwrite"
+            git_user: "IIIStudio"        # 替换原来的 git_user_name
+            git_email: "IIIStudio@qq.com"  # 替换原来的 git_user_email
+            sync_strategy: "overwrite"   # 强制覆盖，解决历史冲突
+            #sync_mode: rebase
+            #sync_mode: "push"  # 明确指定推送模式
