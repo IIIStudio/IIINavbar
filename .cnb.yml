@@ -9,14 +9,14 @@ main:
           image: tencentcom/git-sync
           settings:
             target_url: https://github.com/IIIStudio/IIINavbar.git  # GitHub仓库URL
-            auth_type: https             # HTTPS认证（推荐）
+            auth_type: https              # HTTPS认证（推荐）
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN} # 从密钥库env.yml获取的令牌
-            branch: main                 # 目标分支
-            force: true                  # true，强制推送
-            push_tags: false             # 暂时不推送标签
-            git_user: "IIIStudio"        # 替换原来的 git_user_name
-            git_email: "IIIStudio@qq.com"  # 替换原来的 git_user_email
-            sync_strategy: "overwrite"   # 强制覆盖，解决历史冲突
+            branch: main                  # 目标分支
+            force: true                   # true，强制推送
+            push_tags: false              # 暂时不推送标签
+            git_user: "IIIStudio"         # 替换原来的 git_user_name
+            git_email: "IIIStudio@qq.com" # 替换原来的 git_user_email
+            sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
             #sync_mode: rebase
-            #sync_mode: "push"  # 明确指定推送模式
+            #sync_mode: "push"            # 明确指定推送模式
