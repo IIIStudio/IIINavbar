@@ -21,6 +21,6 @@ main:
             force: true                   # true，强制推送
             push_tags: false              # 暂时不推送标签
             git_user: "IIIStudio"
-            git_email: "${GIT_EMAIL}" 
+            git_email: "IIIStudio@qq.com" 
             #sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
             #sync_mode: rebase
