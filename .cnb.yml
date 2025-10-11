@@ -19,4 +19,4 @@ main:
             git_user: "IIIStudio"
             git_email: "IIIStudio@qq.com" 
             #sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
-            sync_mode: rebase
+            #sync_mode: rebase
