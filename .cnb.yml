@@ -5,18 +5,24 @@ main:
       imports:
         - https://cnb.cool/IIIStudio/key/-/blob/main/github/env.yml
       stages:
+        - name: 配置Git用户信息
+          image: alpine/git
+          commands:
+            - git config --global user.name "IIIStudio"
+            - git config --global user.email "IIIStudio@qq.com"
         - name: 同步到GitHub
           image: tencentcom/git-sync
           settings:
-            target_url: https://github.com/IIIStudio/IIINavbar.git  # GitHub仓库URL
+            target_url: https://github.com/IIIStudio/IIINavbar.git
             auth_type: https              # HTTPS认证（推荐）
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN} # 从密钥库env.yml获取的令牌
             branch: main                  # 目标分支
-            force: false                   # true，强制推送
+            force: true                   # true，强制推送
             push_tags: false              # 暂时不推送标签
             git_user: "IIIStudio"
             git_email: "${GIT_EMAIL}" 
             #sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
             #sync_mode: rebase
             sync_mode: "push"            # 明确指定推送模式
+            exclude_files: ".cnb.yml,*.cnb.*,.cnb/*"  # 排除多个模式
