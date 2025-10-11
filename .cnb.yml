@@ -1,3 +1,14 @@
+# 启动云原生开发环境的配置（控制开发环境如何启动）
+$:
+  vscode:
+    - docker:
+        # 指定开发环境启动时的基础镜像
+        image: docker.cnb.cool/ohao/learn/python:3.12.11
+      services:
+        - vscode  # 启用 VSCode 远程开发服务
+        - docker  # 启用 dind 服务（用于构建镜像等操作）
+
+# 构建并推送镜像的任务（原有的 push 配置保留）
 main:
   push:
     - services:
@@ -6,16 +17,14 @@ main:
         - https://cnb.cool/IIIStudio/key/-/blob/main/github/env.yml
       stages:
         - name: 同步到GitHub
-          image: tencentcom/git-sync
+          image: tencentcom/git-sync 
           settings:
             target_url: https://github.com/IIIStudio/IIINavbar.git
             auth_type: https
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN}
             branch: main
-            force: false                   # true，强制推送
-            push_tags: false              # 暂时不推送标签
+            force: false                   
+            push_tags: false              
             git_user: "IIIStudio"
             git_email: "IIIStudio@qq.com" 
-            #sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
-            #sync_mode: rebase
