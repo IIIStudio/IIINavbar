@@ -24,5 +24,3 @@ main:
             git_email: "${GIT_EMAIL}" 
             #sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
             #sync_mode: rebase
-            sync_mode: "push"
-            exclude_files: ".cnb.yml,*.cnb.*,.cnb/*"  # 排除多个模式
