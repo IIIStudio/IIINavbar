@@ -15,4 +15,4 @@ main:
             branch: main                 # 目标分支
             force: true                  # true，强制推送
             push_tags: false             # 暂时不推送标签
-            sync_mode: rebase
+            sync_strategy: "overwrite"
