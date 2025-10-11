@@ -13,7 +13,7 @@ main:
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN}
             branch: main
-            force: true                   # true，强制推送
+            force: false                   # true，强制推送
             push_tags: false              # 暂时不推送标签
             git_user: "IIIStudio"
             git_email: "IIIStudio@qq.com" 
