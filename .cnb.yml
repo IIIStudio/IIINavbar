@@ -1,7 +1,6 @@
 main:
   push:
     - services:
-        - vscode
         - docker
       imports:
         - https://cnb.cool/IIIStudio/key/-/blob/main/github/env.yml
