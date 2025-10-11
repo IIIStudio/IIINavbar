@@ -19,4 +19,4 @@ main:
             git_email: "${GIT_EMAIL}" 
             #sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
             #sync_mode: rebase
-            #sync_mode: "push"            # 明确指定推送模式
+            sync_mode: "push"            # 明确指定推送模式
