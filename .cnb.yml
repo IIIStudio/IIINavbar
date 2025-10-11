@@ -14,15 +14,15 @@ main:
           image: tencentcom/git-sync
           settings:
             target_url: https://github.com/IIIStudio/IIINavbar.git
-            auth_type: https              # HTTPS认证（推荐）
+            auth_type: https
             username: ${GIT_USERNAME} 
-            password: ${GIT_ACCESS_TOKEN} # 从密钥库env.yml获取的令牌
-            branch: main                  # 目标分支
+            password: ${GIT_ACCESS_TOKEN}
+            branch: main
             force: true                   # true，强制推送
             push_tags: false              # 暂时不推送标签
             git_user: "IIIStudio"
             git_email: "${GIT_EMAIL}" 
             #sync_strategy: "overwrite"    # 强制覆盖，解决历史冲突
             #sync_mode: rebase
-            sync_mode: "push"            # 明确指定推送模式
+            sync_mode: "push"
             exclude_files: ".cnb.yml,*.cnb.*,.cnb/*"  # 排除多个模式
