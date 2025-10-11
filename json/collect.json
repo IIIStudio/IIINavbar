@@ -68,6 +68,13 @@
             "GitHub": "https://github.com/IIIStudio/EFlashcard"
         },
         {
+            "href": "https://qwerty.kaiyi.cool/",
+            "img": "./image/Qwerty Learner.svg",
+            "nome": "Qwerty Learner",
+            "jianjie": "英语单词练习打字。",
+            "GitHub": "https://github.com/RealKai42/qwerty-learner"
+        },
+        {
             "href": "https://hotkeycheatsheet.com/zh",
             "img": "https://pic2.ziyuan.wang/user/miss/2025/03/快捷键备忘录_29f0bf69ad03e.png",
             "nome": "快捷键备忘录",
