@@ -26,5 +26,5 @@ main:
             branch: main
             force: false                   
             push_tags: false              
-            git_user: "IIIStudio"
-            git_email: "IIIStudio@qq.com" 
+            git_user: ${GIT_USERNAME}
+            git_email: ${GIT_EMAIL} 
