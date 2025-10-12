@@ -24,7 +24,7 @@ main:
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN}
             branch: main
-            force: false                   
-            push_tags: false              
+            force: false
+            push_tags: false
             git_user: ${GIT_USERNAME}
             git_email: ${GIT_EMAIL} 
