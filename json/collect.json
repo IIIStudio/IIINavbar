@@ -75,6 +75,13 @@
             "GitHub": "https://github.com/RealKai42/qwerty-learner"
         },
         {
+            "href": "https://nce.luzhenhua.cn/",
+            "img": "./image/NCE Flow.png",
+            "nome": "NCE Flow",
+            "jianjie": "新概念英语在线点读。",
+            "GitHub": "https://github.com/luzhenhua/NCE-Flow"
+        },
+        {
             "href": "https://hotkeycheatsheet.com/zh",
             "img": "https://pic2.ziyuan.wang/user/miss/2025/03/快捷键备忘录_29f0bf69ad03e.png",
             "nome": "快捷键备忘录",
