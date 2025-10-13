@@ -310,9 +310,68 @@ code {
 li {
     word-wrap: break-word;
 }
-@media screen and (max-width: 500px) {
-    .search-bar img {
-        display: none; 
+
+
+/* corner-links 内联搜索样式（点击放大镜再展开） */
+.corner-links {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.corner-links .search-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    margin-right: 8px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    transition: opacity .2s ease;
+}
+.corner-links .search-toggle:hover {
+    opacity: .8;
+}
+.corner-links .search-input {
+    width: 0;
+    max-width: 35vw;
+    opacity: 0;
+    border: 0;
+    padding: 8px 10px;
+    border-radius: 8px;
+    outline: none;
+    background: #fff;
+    transition: width .25s ease, opacity .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+.corner-links.search-open .search-input {
+    width: 220px;
+    min-width: 140px;
+    opacity: 1;
+    border: 1px solid #b5bfd9;
+}
+/* 展开时隐藏放大镜按钮 */
+.corner-links.search-open .search-toggle {
+    display: none;
+}
+.corner-links .search-input:focus {
+    border-color: #2260ff;
+    box-shadow: 0 0 0 4px #b5c9fc;
+}
+@media screen and (max-width: 640px) {
+    .corner-links { position: relative; }
+    .corner-links.search-open .search-input {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 65vw;
+        max-width: 65vw;
+        opacity: 1;
+        border: 1px solid #b5bfd9;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+        z-index: 10;
     }
 }
 </style>
@@ -328,6 +387,12 @@ li {
             <p>简易收藏夹</p>
         </div>
         <div class="corner-links" aria-label="页面固定链接">
+            <button id="search-toggle" class="search-toggle" type="button" aria-label="打开搜索">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#212529" d="M15.5 14h-.79l-.28-.27a6.471 6.471 0 0 0 1.57-4.23A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14Zm-6 0A4.5 4.5 0 1 1 14 9.5 4.505 4.505 0 0 1 9.5 14Z"/>
+                </svg>
+            </button>
+            <input id="search-input" class="search-input" type="search" placeholder="搜索全部项目..." aria-label="搜索全部项目">
             <a class="corner-link" href="https://github.com/IIIStudio/IIINavbar" target="_blank" rel="noopener noreferrer" aria-label="前往 GitHub 仓库">
                 <!-- 内联 GitHub 图标，避免外部资源依赖 -->
                 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
@@ -360,6 +425,8 @@ const decodedString = atob(base64String);
 const md = decodedString;
 let projects = {}; // 初始化为空对象
 let iconConfig = {};
+let currentCategory = "";
+let currentSearchQuery = "";
 
 Promise.all([
     fetch(md).then(response => response.json()),
@@ -371,7 +438,8 @@ Promise.all([
     // 动态创建类别选择
     createCategoryOptions(Object.keys(projects));
     // 默认加载第一个类别的项目
-    loadProjects(Object.keys(projects)[0]);
+    currentCategory = Object.keys(projects)[0];
+    loadProjects(currentCategory);
 }).catch(error => console.error('获取JSON或Icon时出错:', error));
 
 function createCategoryOptions(categories) {
@@ -390,7 +458,8 @@ function createCategoryOptions(categories) {
     // 添加事件监听器以根据选择的类别加载项目
     document.querySelectorAll('input[name="radio"]').forEach(radio => {
         radio.addEventListener('change', () => {
-            loadProjects(radio.value);
+            currentCategory = radio.value;
+            loadProjects(currentCategory);
         });
     });
 }
@@ -398,9 +467,19 @@ function createCategoryOptions(categories) {
 function loadProjects(category) {
     const container = document.getElementById('project-container');
     container.innerHTML = ''; // 清空现有内容
+    currentCategory = category;
     const selectedProjects = projects[category];
+    const q = (currentSearchQuery || '').toLowerCase();
+    let list = selectedProjects;
+    if (q) {
+        const all = Object.values(projects).reduce((acc, arr) => acc.concat(arr), []);
+        list = all.filter(p =>
+            (p.nome && p.nome.toLowerCase().includes(q)) ||
+            (p.jianjie && p.jianjie.toLowerCase().includes(q))
+        );
+    }
 
-    selectedProjects.forEach(project => {
+    list.forEach(project => {
         const projectLink = document.createElement('a');
         projectLink.href = project.href;
         projectLink.className = 'project';
@@ -477,6 +556,53 @@ function getCachedImage(imageUrl, width = 80) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
+    // 绑定搜索事件（点击放大镜展开，输入进行“全分类”搜索）
+    const cornerLinks = document.querySelector('.corner-links');
+    const searchInput = document.getElementById('search-input');
+    const toggleBtn = document.getElementById('search-toggle');
+
+    function openSearch() {
+        if (!cornerLinks.classList.contains('search-open')) {
+            cornerLinks.classList.add('search-open');
+            setTimeout(() => searchInput.focus(), 0);
+        }
+    }
+    function closeSearch() {
+        cornerLinks.classList.remove('search-open');
+    }
+
+    if (toggleBtn && cornerLinks && searchInput) {
+        // 点击放大镜展开，展开后图标通过 CSS 隐藏
+        toggleBtn.addEventListener('click', openSearch);
+
+        // 输入即搜索（全分类）
+        searchInput.addEventListener('input', (e) => {
+            currentSearchQuery = e.target.value.trim().toLowerCase();
+            loadProjects(currentCategory || (projects && Object.keys(projects)[0]));
+        });
+
+        // ESC 收起
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                searchInput.blur(); // 触发 blur 的收起逻辑
+            }
+        });
+
+        // 失焦收起
+        searchInput.addEventListener('blur', () => {
+            closeSearch();
+        });
+
+
+
+        // 全局点击输入框外收起
+        document.addEventListener('pointerdown', (e) => {
+            if (!cornerLinks.contains(e.target)) {
+                closeSearch();
+            }
+        });
+    }
+
     // 获取 JSON 文件并渲染导航栏
     fetch(nav)
         .then(response => response.json())
