@@ -21,10 +21,10 @@ main:
           settings:
             target_url: https://github.com/IIIStudio/IIINavbar.git
             auth_type: https
+            git_user: ${GIT_USERNAME}
+            git_email: ${GIT_EMAIL} 
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN}
             branch: main
             force: false
             push_tags: false
-            git_user: ${GIT_USERNAME}
-            git_email: ${GIT_EMAIL} 
