@@ -26,5 +26,4 @@ main:
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN}
             branch: main
-            force: false
-            push_tags: false
+            sync_mode: rebase
