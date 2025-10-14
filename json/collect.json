@@ -104,8 +104,7 @@
             "href": "https://www.milkywayidle.com/?ref=238666",
             "img": "https://pic2.ziyuan.wang/user/miss/2025/03/milkywayidle_f630464c9611f.png",
             "nome": "Milky Way Idle",
-            "jianjie": "银河奶牛放置游戏。",
-            "wenzhang": "https://milkonomy.pages.dev/"
+            "jianjie": "银河奶牛放置游戏。"
         },
         {
             "href": "https://game.haiyong.site/",
@@ -146,8 +145,7 @@
             "href": "https://animista.net/",
             "img": "https://pic2.ziyuan.wang/user/miss/2024/11/Animista_95322af10b470.png",
             "nome": "Animista",
-            "jianjie": "SVG 或 HTML 动画元素。",
-            "wenzhang": "#"
+            "jianjie": "SVG 或 HTML 动画元素。"
         },
         {
             "href": "https://3w.pm/",
@@ -193,8 +191,7 @@
             "href": "https://regex101.com/",
             "img": "https://pic2.ziyuan.wang/user/miss/2024/11/regex101_afb4a072ee094.png",
             "nome": "regex101",
-            "jianjie": "文本正则替换。",
-            "wenzhang":"#"
+            "jianjie": "文本正则替换。"
         },
         {
             "href": "https://archive.md/",
@@ -269,8 +266,7 @@
             "href": "https://mail.tm/zh/",
             "img": "https://mail.tm/apple-touch-icon.png",
             "nome": "Temp Mail",
-            "jianjie": "临时邮件。",
-            "wenzhang":"#"
+            "jianjie": "临时邮件。"
         },
         {
             "href": "https://gchq.github.io/CyberChef/",
@@ -308,8 +304,7 @@
             "href": "http://stp.ezyro.com/img/",
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_89371d32e8692.png",
             "nome": "图床",
-            "jianjie": "ipfs图床。",
-            "wenzhang":"#"
+            "jianjie": "ipfs图床。"
         },
         {
             "href": "https://getsimnum.caict.ac.cn/#/index",
@@ -777,8 +772,7 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Cisco%20AnyConnect_8fe3f572c3ea2.webp",
             "nome": "Cisco AnyConnect",
             "jianjie": "思科 - 版本 v4.7。",
-            "gw": "https://www.cisco.com/",
-            "wenzhang": "#"
+            "gw": "https://www.cisco.com/"
         },
         {
             "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EQqnN4TKI7NDoFoqxWBus8cB3i5QxRc6aIBPpavzAFAXbw",
@@ -791,8 +785,7 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2025/04/FluentTerminal_f1e72766fe9fd.png",
             "nome": "FluentTerminal",
             "jianjie": "UWP和web技术的终端。",
-            "GitHub":"https://github.com/felixse/FluentTerminal",
-            "wenzhang": "#"
+            "GitHub":"https://github.com/felixse/FluentTerminal"
         },
         {
             "href": "https://cloudreve.yun.fi/s/NPHX",
@@ -806,8 +799,7 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/AriaNg_f06265b042d93.png",
             "nome": "AriaNgGUI",
             "jianjie": "Aria2 图形界面客户端。",
-            "GitHub":"https://github.com/Xmader/aria-ng-gui/",
-            "wenzhang":"#"
+            "GitHub":"https://github.com/Xmader/aria-ng-gui/"
         },
         {
             "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EbN7sC27QA5HnxuzUlxTuswB2IdHEhKcs1IqAXLYDecJbw",
@@ -866,8 +858,7 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2025/04/emeditor_c1e72b1ec18bb.png",
             "nome": "EmEditor",
             "jianjie": "TXT编辑器。",
-            "gw": "https://emeditor.info/",
-            "wenzhang": "#"
+            "gw": "https://emeditor.info/"
         },
         {
             "href": "https://cloudreve.yun.fi/s/QeUX",
@@ -927,7 +918,6 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/xshell_c91cdae8de476.png",
             "nome": "Xshell",
             "jianjie": "版本 v6.0.0175r",
-            "wenzhang":"#",
             "gw": "https://www.xshell.com/zh/xshell/"
         },
         {
@@ -935,7 +925,6 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/xftp_f329f742fc9b1.png",
             "nome": "Xftp",
             "jianjie": "版本 v6.0.0169r",
-            "wenzhang":"#",
             "gw": "https://www.xshell.com/zh/xftp/"
         },
         {
@@ -1020,7 +1009,6 @@
             "nome": "rclone",
             "jianjie": "第三方网盘连接。",
             "gw": "https://rclone.org/",
-            "wenzhang": "#",
             "GitHub": "https://github.com/rclone/rclone"
         },
         {
@@ -1050,7 +1038,6 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/autohotkey_0272ef0393809.png",
             "nome": "AutoHotkey",
             "jianjie": "命令调用自动化操作。",
-            "wenzhang":"#",
             "gw": "https://www.autohotkey.com/"
         },
         {
@@ -1175,7 +1162,6 @@
             "nome": "Twitter",
             "jianjie": "Twitter 多线程下载器。",
             "GitHub":"https://github.com/unkmonster/tmd/",
-            "wenzhang":"#",
             "gw": "https://x.com/"
         },
         {
@@ -1183,7 +1169,6 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/11/python_bc9b98eee459a.png",
             "nome": "宏录制器",
             "jianjie": "Python 宏录制器。",
-            "wenzhang":"#",
             "gw": "https://www.52pojie.cn/thread-1995449-1-1.html"
         },
         {
@@ -1209,7 +1194,6 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/11/NetLimiter_04b4cc8122ba7.png",
             "nome": "NetLimiter",
             "jianjie": "网络流量限速与防火墙工具 KeyGen",
-            "wenzhang": "#",
             "gw": "https://www.netlimiter.com/ ",
             "GitHub":"https://gist.github.com/LucasBonafe/5039de0ee2e1ccfc176d8608c9a43718"
         },
@@ -1218,7 +1202,6 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/11/qbittorrent_363f674fbd7cc.png",
             "nome": "qBittorrent",
             "jianjie": "磁力下载 - 链接里有可以手机使用。",
-            "wenzhang": "#"
         },
         {
             "href": "https://github.com/rime/weasel/releases",
@@ -1399,8 +1382,7 @@
             "nome": "阅读",
             "jianjie": "自定义来源阅读TXT。",
             "GitHub":"https://github.com/gedoor/legado/",
-            "gw":"https://gedoor.github.io/",
-            "wenzhang":"#"
+            "gw":"https://gedoor.github.io/"
         },
         {
             "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EdvoZ7CqBb5NqJzKjwvzBXkBbDDJ0aTHkUO-0peH1SfYIA",
@@ -1415,7 +1397,6 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/Clash_dd9221193a21f.webp",
             "nome": "Clash",
             "jianjie": "Clash for Android。",
-            "wenzhang":"#",
             "GooglePlay": "https://play.google.com/store/apps/details?id=com.github.kr328.clash",
             "tg": "https://t.me/Clashclient"
         },
@@ -1468,8 +1449,7 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/linglong_ffc785f5b58d0.png",
             "nome": "电不信",
             "jianjie": "付费 - 百度网盘在线解析。",
-            "gw": "https://new.linglong521.cn/",
-            "wenzhang": "https://anlnet.notion.site/ae9f8314e3b84ca7ba2cbdb4c3e4e358",
+            "gw": "https://anlnet.notion.site/ae9f8314e3b84ca7ba2cbdb4c3e4e358",
             "QQ": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=PvehWXagulrZh3eiLRcuKUUHaUMQbZmo&authKey=Ky2zEvwN+t01eIPzJm+CFO33lFUQna1fKM7OPg2U5FObfNUhR8TKQ3Ag/pAfgdkT&noverify=0&group_code=996475337"
         },
         {
