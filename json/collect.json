@@ -519,6 +519,13 @@
             "GitHub":"https://github.com/Moonvy/OpenPromptStudio"
         },
         {
+            "href": "https://api.oplist.org/",
+            "img": "../image/OpenList.png",
+            "nome": "OpenList",
+            "jianjie": "获取部分网盘API的接口。",
+            "GitHub":"https://github.com/OpenListTeam/OpenList-APIPages"
+        },
+        {
             "href": "https://iiistudio.github.io/IIIPasswords/",
             "img": "./image/IIIStudio.png",
             "nome": "IIIPasswords",
