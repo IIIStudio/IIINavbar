@@ -664,6 +664,13 @@
             "jianjie": "天翼云盘资源站。"
         },
         {
+            "href": "https://so.252035.xyz/",
+            "img": "../image/PanSou.jpg",
+            "nome": "PanSou",
+            "jianjie": "网盘资源搜索。",
+            "GitHub": "https://github.com/fish2018/pansou"
+        },
+        {
             "href": "https://www.hifini.com",
             "img": "https://pic2.ziyuan.wang/user/miss/2025/04/hifini_103fcd33918c1.png",
             "nome": "hifini",
