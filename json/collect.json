@@ -1425,7 +1425,7 @@
         }
         
     ],
-        "URL": [
+    "URL": [
         {
             "href": "https://alumnialbany-my.sharepoint.com/:f:/g/personal/betros_alumni_albany_edu/EuFrJFekoX5Eq5t73MN1tVwBhoDHqRpMniTB2btXIGgogA",
             "img": "https://pic2.ziyuan.wang/user/miss/2024/10/onedrive_e060fb4d64aea.png",
@@ -1510,6 +1510,12 @@
             "img": "https://pic2.ziyuan.wang/user/miss/2024/11/chatgpt_a881d28f45209.png",
             "nome": "ChatGPT",
             "jianjie": "AI。"
+        },
+        {
+            "href": "https://ai.gitee.com/serverless-api?model=z-image-turbo",
+            "img": "./image/ai.gitee.png",
+            "nome": "gitee",
+            "jianjie": "体验 z-image-turbo。"
         },
         {
             "href": "https://claude.ai/",
