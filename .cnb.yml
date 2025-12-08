@@ -26,4 +26,5 @@ main:
             username: ${GIT_USERNAME} 
             password: ${GIT_ACCESS_TOKEN}
             branch: main
-            sync_mode: rebase
+            sync_mode: mirror  # 镜像模式，直接覆盖
+            force: true
