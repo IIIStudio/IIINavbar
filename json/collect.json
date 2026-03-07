@@ -1691,6 +1691,12 @@
       "jianjie": "人脸搜索引擎。",
       "Python": "https://github.com/addycb/Pimeyes-Free-POC",
       "GitHub": "https://github.com/addycb/Pimeyes-Free-POC"
+    },
+    {
+      "href": "https://linux.do/",
+      "img": "./image/linux.do_671f574198989.png",
+      "nome": "LINUX DO",
+      "jianjie": "人工智能和Linux技术的中文社区论坛"
     }
   ]
 }
