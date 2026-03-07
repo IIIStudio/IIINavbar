@@ -1450,26 +1450,6 @@
       "gw": "https://www.bilibili.com/video/av113516371509944/"
     },
     {
-      "href": "https://10001.linglong521.cn/",
-      "img": "https://pic2.ziyuan.wang/user/miss/2024/10/linglong_ffc785f5b58d0.png",
-      "nome": "电不信",
-      "jianjie": "付费 - 百度网盘在线解析。",
-      "gw": "https://anlnet.notion.site/ae9f8314e3b84ca7ba2cbdb4c3e4e358",
-      "QQ": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=PvehWXagulrZh3eiLRcuKUUHaUMQbZmo&authKey=Ky2zEvwN+t01eIPzJm+CFO33lFUQna1fKM7OPg2U5FObfNUhR8TKQ3Ag/pAfgdkT&noverify=0&group_code=996475337"
-    },
-    {
-      "href": "https://xiazai.xn--vzyr4p.top/user",
-      "img": "https://pic2.ziyuan.wang/user/miss/2024/10/_8f3b14147debc.png",
-      "nome": "劳琦峻",
-      "jianjie": "每日一次 - 百度网盘在线解析。"
-    },
-    {
-      "href": "http://119.91.62.135:5705/lives",
-      "img": "https://pic2.ziyuan.wang/user/miss/2024/11/tv_b4e1d986e463b.png",
-      "nome": "电视源",
-      "jianjie": "电视TV源。"
-    },
-    {
       "href": "https://whatslink.info/",
       "img": "https://pic2.ziyuan.wang/user/miss/2025/03/whatslink.info_b6c6a47a5c785.webp",
       "nome": "What's the link?",
@@ -1695,7 +1675,9 @@
       "href": "https://ldoh.105117.xyz/",
       "img": "./image/ldoh.105117.xyz_68ba3cbc591f9.jpg",
       "nome": "LD OPEN HUB",
-      "jianjie": "公益站导航，由社区共建。"
+      "jianjie": "公益站导航，由社区共建。",
+      "GitHub": "https://github.com/JoJoJotarou/LDOH",
+      "wenzhang": "https://linux.do/t/topic/1001042"
     }
   ]
 }
