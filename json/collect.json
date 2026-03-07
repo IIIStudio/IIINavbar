@@ -526,7 +526,7 @@
     },
     {
       "href": "https://api.oplist.org/",
-      "img": "../image/OpenList.png",
+      "img": "./image/OpenList.png",
       "nome": "OpenList",
       "jianjie": "获取部分网盘API的接口。",
       "GitHub": "https://github.com/OpenListTeam/OpenList-APIPages"
@@ -672,7 +672,7 @@
     },
     {
       "href": "https://so.252035.xyz/",
-      "img": "../image/PanSou.jpg",
+      "img": "./image/PanSou.jpg",
       "nome": "PanSou",
       "jianjie": "网盘资源搜索。",
       "GitHub": "https://github.com/fish2018/pansou"
