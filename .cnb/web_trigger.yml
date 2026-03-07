@@ -1,0 +1,110 @@
+.params_options: &params_options
+  - name: GitHub
+    value: GitHub
+  - name: GooglePlay
+    value: GooglePlay
+  - name: OneDrive
+    value: OneDrive
+  - name: Python
+    value: Python
+  - name: QQ
+    value: QQ
+  - name: gw
+    value: gw
+  - name: tg
+    value: tg
+  - name: tui
+    value: tui
+  - name: vercel
+    value: vercel
+  - name: wenzhang
+    value: wenzhang
+
+.params_options_label: &params_options_label
+  - name: Android
+    value: Android
+  - name: HTML
+    value: HTML
+  - name: PC
+    value: PC
+  - name: URL
+    value: URL
+  - name: Watch
+    value: Watch
+
+branch:
+  - buttons:
+      - name: 写入网站
+        event: web_trigger
+        description: 写入 ${mc} 网站
+        inputs:
+          category:
+            name: 网站分类
+            required: true 
+            type: select
+            options: *params_options_label
+          href:
+            name: 网站地址
+            description: 网站地址
+            required: true 
+            type: input
+          img:
+            name: 网站图标
+            required: true 
+            type: input
+          mc:
+            name: 名称
+            required: true 
+            type: input
+          jianjie:
+            name: 简介
+            required: true 
+            type: input
+          top:
+            name: 位置只能是数字
+            required: true 
+            type: input
+            default: "1"
+          icon:
+            name: 名称
+            type: input
+
+      - name: 删除网站
+        event: web_trigger_delete_url
+        description: 删除 ${url} 网站
+        inputs:
+          url:
+            name: 网站链接
+            required: true 
+            type: input
+
+      - name: 添加与删除icon
+        event: web_trigger_icon
+        description: ${add-delete} ${icon} 图标
+        inputs:
+          add-delete:
+            name: 添加或者删除
+            default: -add
+            type: select
+            required: true
+            options: 
+            - name: 添加
+              value: -add
+            - name: 删除
+              value: -delete
+          icon:
+            name: icon名称
+            description: icon名称
+            type: input
+            required: true 
+          image:
+            name: 图标URL
+            type: input
+            required: true 
+          height:
+            name: 图标大小
+            default: "18"
+            type: input
+            required: true 
+
+            

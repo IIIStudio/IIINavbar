@@ -28,3 +28,30 @@ main:
             branch: main
             sync_mode: mirror  # 镜像模式，直接覆盖
             force: true
+
+  web_trigger:
+    - runner:
+        cpus: 1
+      stages:
+        - name: 添加 ${mc} 网站
+          script: bash /workspace/update_add_collect.sh -add "${category}" "${href}" "${img}" "${mc}" "${jianjie}" ${top} ${icon}
+        - name: 上传
+          script: git add . ; git commit -m "添加 ${mc} 网站" ; git push
+          
+  web_trigger_icon:
+    - runner:
+        cpus: 1
+      stages:
+        - name: ${add-delete} ${icon} 图标
+          script: sh /workspace/update_icon.sh ${add-delete} ${icon} "${image}" ${height}
+        - name: 上传
+          script: git add . ; git commit -m "${add-delete} ${icon} 图标" ; git push
+
+  web_trigger_delete_url:
+    - runner:
+        cpus: 1
+      stages:
+          - name: 删除 ${url} 网站
+            script: sh /workspace/web_trigger_delete_url.sh "${url}"
+          - name: 上传
+            script: git add . ; git commit -m "删除 ${url} 网站" ; git push
