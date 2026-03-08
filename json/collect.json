@@ -774,6 +774,12 @@
   ],
   "PC": [
     {
+      "href": "https://cnb.cool/IIIStudio/fork/Github/Download",
+      "img": "./image/CNB.png",
+      "nome": "CNB",
+      "jianjie": "GitHub软件收藏"
+    },
+    {
       "href": "https://alumnialbany-my.sharepoint.com/personal/betros_alumni_albany_edu/_layouts/52/download.aspx?share=EZkMc6MGBAVPslzUSJAUfsUBg1NFybifNPjiY7L56dLMsA",
       "img": "https://pic2.ziyuan.wang/user/miss/2024/10/geek-uninstaller-boxshot_11d1a79800a0d.png",
       "nome": "Geek Uninstaller",
