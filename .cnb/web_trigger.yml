@@ -67,7 +67,6 @@ branch:
             default: "1"
           icon:
             name: 图标名称及链接地址
-            required: true 
             type: input
 
       - name: 删除网站
