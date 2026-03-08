@@ -1428,6 +1428,12 @@
       "img": "./image/skills.sh.png",
       "nome": "Skills",
       "jianjie": "Skills 排行榜"
+    },
+    {
+      "href": "https://clawhub.ai/",
+      "img": "./image/clawhub.ai.png",
+      "nome": "ClawHub",
+      "jianjie": "Skill的共享与分发平台"
     }
   ],
   "URL": [
