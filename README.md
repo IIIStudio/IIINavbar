@@ -1,5 +1,5 @@
 # IIINavbar 收藏或展示页
-一个简单的收藏或展示页
+一个简单的收藏或展示页 演示：https://github.com/IIIStudio/IIINavbar
 
 ## 更新日志
 - 2026年3月7日
