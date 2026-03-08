@@ -1423,7 +1423,12 @@
     }
   ],
   "AI": [
-
+    {
+      "href": "https://skills.sh/",
+      "img": "./image/skills.sh.png",
+      "nome": "Skills",
+      "jianjie": "Skills 排行榜"
+    }
   ],
   "URL": [
     {
