@@ -1672,6 +1672,12 @@
       "jianjie": "公益站导航，由社区共建。",
       "GitHub": "https://github.com/JoJoJotarou/LDOH",
       "wenzhang": "https://linux.do/t/topic/1001042"
+    },
+    {
+      "href": "https://fuun.fun/",
+      "img": "./image/fuun.fun.png",
+      "nome": "FUUN.FUN",
+      "jianjie": "奇趣网站收藏家"
     }
   ]
 }
