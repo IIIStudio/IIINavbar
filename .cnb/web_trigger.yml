@@ -21,6 +21,8 @@
     value: wenzhang
 
 .params_options_label: &params_options_label
+  - name: AI
+    value: AI
   - name: Android
     value: Android
   - name: HTML
