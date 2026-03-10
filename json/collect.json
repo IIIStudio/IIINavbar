@@ -1440,6 +1440,14 @@
       "img": "./image/clawhub.ai.png",
       "nome": "ClawHub",
       "jianjie": "Skill的共享与分发平台"
+    },
+    {
+      "href": "https://grok.jiuuij.de5.net/imagine",
+      "img": "./image/grok.jiuuij.de5.net.jpg",
+      "nome": "Grok2API",
+      "jianjie": "L站登录，初始1k积分",
+      "gw": "https://linux.do/t/topic/1623107",
+      "GitHub": "https://github.com/WangXingFan/grok2api"
     }
   ],
   "URL": [
