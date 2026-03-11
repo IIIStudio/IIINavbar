@@ -1430,6 +1430,13 @@
   ],
   "AI": [
     {
+      "href": "https://prompts.chat/prompts",
+      "img": "./image/prompts.chat.png",
+      "nome": "prompts.chat",
+      "jianjie": "AI 提示词的自由",
+      "GitHub": "https://github.com/f/prompts.chat"
+    },
+    {
       "href": "https://skills.sh/",
       "img": "./image/skills.sh.png",
       "nome": "Skills",
