@@ -604,6 +604,13 @@
       "nome": "FreeTierListHTML",
       "jianjie": "Tier List 排序页面。",
       "GitHub": "https://github.com/IIIStudio/FreeTierListHTML"
+    },
+    {
+      "href": "https://starme.cc.cd/zh-CN/repo",
+      "img": "./image/starme.cc.cd_19f179b09660b.png",
+      "nome": "starme.cc.cd",
+      "jianjie": "Github 互Star 刷赞（刷Star）的站点",
+      "gw": "https://linux.do/t/topic/498246"
     }
   ],
   "Watch": [
