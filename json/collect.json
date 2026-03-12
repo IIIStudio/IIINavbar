@@ -1462,6 +1462,12 @@
       "jianjie": "L站登录，初始1k积分",
       "gw": "https://linux.do/t/topic/1623107",
       "GitHub": "https://github.com/WangXingFan/grok2api"
+    },
+    {
+      "href": "https://ai.gitee.com/serverless-api?model=z-image-turbo",
+      "img": "./image/ai.gitee.com_ca662a533e07a.png",
+      "nome": "体验 z-image-turbo",
+      "jianjie": "每日免费调用次数 100"
     }
   ],
   "URL": [
