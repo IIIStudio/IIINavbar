@@ -43,13 +43,6 @@
       "tui": "https://movierecord.notion.site/"
     },
     {
-      "href": "https://gprochat.com/",
-      "img": "./image/Gemini_e84983d50612e.jpg",
-      "nome": "Gemini Pro Chat",
-      "jianjie": "Minimal web UI for GeminiPro.",
-      "GitHub": "https://github.com/babaohuang/GeminiProChat"
-    },
-    {
       "href": "https://imagestool.com/webp2jpg-online/",
       "img": "https://pic2.ziyuan.wang/user/miss/2025/01/webp2jpg_9701d887a82b2.png",
       "nome": "webp2jpg",
@@ -100,12 +93,6 @@
       "nome": "newsnow",
       "jianjie": "热门新闻。",
       "GitHub": "https://github.com/ourongxing/newsnow"
-    },
-    {
-      "href": "https://www.leaderai.top/mid-api/lab/image_prompt/index.html",
-      "img": "./image/www.leaderai.top.png",
-      "nome": "LeaderAI",
-      "jianjie": "AI提示词仓库"
     },
     {
       "href": "https://friend.chatnext.ai/",
@@ -1437,6 +1424,13 @@
   ],
   "AI": [
     {
+      "href": "https://gprochat.com/",
+      "img": "./image/Gemini_e84983d50612e.jpg",
+      "nome": "Gemini Pro Chat",
+      "jianjie": "Minimal web UI for GeminiPro.",
+      "GitHub": "https://github.com/babaohuang/GeminiProChat"
+    },
+    {
       "href": "https://prompts.chat/prompts",
       "img": "./image/prompts.chat.png",
       "nome": "prompts.chat",
@@ -1444,16 +1438,10 @@
       "GitHub": "https://github.com/f/prompts.chat"
     },
     {
-      "href": "https://skills.sh/",
-      "img": "./image/skills.sh.png",
-      "nome": "Skills",
-      "jianjie": "Skills 排行榜"
-    },
-    {
-      "href": "https://clawhub.ai/",
-      "img": "./image/clawhub.ai.png",
-      "nome": "ClawHub",
-      "jianjie": "Skill的共享与分发平台"
+      "href": "https://www.leaderai.top/mid-api/lab/image_prompt/index.html",
+      "img": "./image/www.leaderai.top.png",
+      "nome": "LeaderAI",
+      "jianjie": "AI提示词仓库"
     },
     {
       "href": "https://grok.jiuuij.de5.net/imagine",
@@ -1468,6 +1456,18 @@
       "img": "./image/ai.gitee.com_ca662a533e07a.png",
       "nome": "体验 z-image-turbo",
       "jianjie": "每日免费调用次数 100"
+    },
+    {
+      "href": "https://skills.sh/",
+      "img": "./image/skills.sh.png",
+      "nome": "Skills",
+      "jianjie": "Skills 排行榜"
+    },
+    {
+      "href": "https://clawhub.ai/",
+      "img": "./image/clawhub.ai.png",
+      "nome": "ClawHub",
+      "jianjie": "Skill的共享与分发平台"
     }
   ],
   "URL": [
