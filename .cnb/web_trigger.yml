@@ -37,6 +37,7 @@
 branch:
   - buttons:
       - name: 写入网站
+        isDefault: true
         event: web_trigger
         description: 写入 ${mc} 网站
         inputs:
