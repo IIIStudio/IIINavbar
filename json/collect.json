@@ -101,6 +101,13 @@
       "jianjie": "银河奶牛放置游戏。"
     },
     {
+      "href": "https://vibespace.xyzen.de/",
+      "img": "./image/vibespace_ae81e00c3d13a.jpg",
+      "nome": "vibespace",
+      "jianjie": "一键生成容器化Vibe开发环境",
+      "GitHub": "https://github.com/XyzenSun/vibespace"
+    },
+    {
       "href": "https://game.haiyong.site/",
       "img": "https://pic2.ziyuan.wang/user/miss/2025/05/game.haiyong.site_aca5d413d65e3.gif",
       "nome": "海拥🐬游戏大全",
