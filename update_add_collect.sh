@@ -198,17 +198,8 @@ main() {
             # 确保 image 目录存在
             mkdir -p image
             
-            # 从 URL 中提取文件名
-            local filename=$(basename "$img")
-            
-            # 检查 URL 中是否有扩展名，如果没有则根据内容类型判断
-            if [[ "$filename" != *"."* ]]; then
-                # 尝试从 URL 中提取扩展名（去掉查询参数）
-                filename=$(echo "$img" | grep -oP '[^/?]*\.[^/?]+' | head -1)
-                if [ -z "$filename" ]; then
-                    filename="${name}.png"
-                fi
-            fi
+            # 使用项目名称作为文件名
+            local filename="${name}.png"
             
             local local_path="./image/$filename"
             
