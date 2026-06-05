@@ -52,6 +52,13 @@
       "gw": "https://imagestool.com/zh_CN/"
     },
     {
+      "href": "https://iiistudio.github.io/AIChat/",
+      "img": "./image/AI Chat.png",
+      "nome": "AI Chat",
+      "jianjie": "AI聊天",
+      "GitHub": "https://github.com/IIIStudio/AIChat"
+    },
+    {
       "href": "https://petschko.org/tools/mv_decrypter/",
       "img": "https://fastly.jsdelivr.net/gh/Petschko/RPG-Maker-MV-Decrypter/img/projectIcon.png",
       "nome": "RPG-Maker",
