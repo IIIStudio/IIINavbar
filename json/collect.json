@@ -612,6 +612,12 @@
       "img": "./image/Animate UI.png",
       "nome": "Animate UI",
       "jianjie": "Icons"
+    },
+    {
+      "href": "https://www.cult-ui.com/docs/components/pixel-heading-character",
+      "img": "./image/Cult UI.png",
+      "nome": "Cult UI",
+      "jianjie": "UI"
     }
   ],
   "Watch": [
