@@ -475,7 +475,8 @@ function loadProjects(category) {
         const all = Object.values(projects).reduce((acc, arr) => acc.concat(arr), []);
         list = all.filter(p =>
             (p.nome && p.nome.toLowerCase().includes(q)) ||
-            (p.jianjie && p.jianjie.toLowerCase().includes(q))
+            (p.jianjie && p.jianjie.toLowerCase().includes(q)) ||
+            (p.href && p.href.toLowerCase().includes(q))
         );
     }
 
