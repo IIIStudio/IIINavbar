@@ -48,6 +48,25 @@ body::-webkit-scrollbar {
     margin: 0px 0px 0px 20px;
     font-size: 15px;
 }
+.stats-info {
+    font-size: 13px;
+    color: #999;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.stats-info .stat-item {
+    display: inline-block;
+    margin: 0 4px;
+    padding: 2px 8px;
+    background: #e8e8e8;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #555;
+}
+.stats-info .stat-item .stat-num {
+    font-weight: bold;
+    color: #333;
+}
 .container {
     width: 100%;
     display: grid;
@@ -386,7 +405,7 @@ li {
             <a href="./" target="_blank">
                 <img src="./logo/ohao.svg" alt="OHAO" style="width: 200px;padding: 20px 0px 0px 13px;">
             </a>
-            <p>简易收藏夹</p>
+            <p>简易收藏夹 <span id="stats-info" class="stats-info"></span></p>
         </div>
         <div class="corner-links" aria-label="页面固定链接">
             <button id="search-toggle" class="search-toggle" type="button" aria-label="打开搜索">
@@ -437,12 +456,26 @@ Promise.all([
     projects = data;      // 项目数据
     iconConfig = icons;   // 图标配置
 
+    // 更新统计信息
+    updateStatsInfo();
+
     // 动态创建类别选择
     createCategoryOptions(Object.keys(projects));
     // 默认加载第一个类别的项目
     currentCategory = Object.keys(projects)[0];
     loadProjects(currentCategory);
 }).catch(error => console.error('获取JSON或Icon时出错:', error));
+
+function updateStatsInfo() {
+    const statsEl = document.getElementById('stats-info');
+    if (!statsEl || !projects) return;
+    let html = '';
+    Object.keys(projects).forEach(cat => {
+        const count = projects[cat].length;
+        html += `<span class="stat-item">${cat} <span class="stat-num">${count}</span></span>`;
+    });
+    statsEl.innerHTML = html;
+}
 
 function createCategoryOptions(categories) {
     const container = document.getElementById('category-container');
