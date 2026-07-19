@@ -1486,6 +1486,13 @@
       "img": "./image/clawhub.ai.png",
       "nome": "ClawHub",
       "jianjie": "Skill的共享与分发平台"
+    },
+    {
+      "href": "https://x666.me/console/personal",
+      "img": "https://i.111666.best/image/UQ3YrIrF59JZfaEFGJabrr.png",
+      "nome": "薄荷 API",
+      "jianjie": "New API",
+      "gw": "https://up.x666.me/"
     }
   ],
   "URL": [
