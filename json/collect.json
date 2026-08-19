@@ -130,7 +130,7 @@
     },
     {
       "href": "https://picsmaller.com/",
-      "img": "https://picsmaller.com/logo.svg",
+      "img": "./image/picsmaller.com.png",
       "nome": "Pic Smaller图小小",
       "jianjie": "图片批量压缩转换。",
       "GitHub": "https://github.com/joye61/pic-smaller",
