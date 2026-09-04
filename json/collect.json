@@ -601,6 +601,27 @@
       "GitHub": "https://github.com/IIIStudio/FreeTierListHTML"
     },
     {
+      "href": "https://iiistudio.github.io/IMG-A4-PDF/",
+      "img": "./image/IIIStudio.png",
+      "nome": "IMG-A4-PDF",
+      "jianjie": "图片转PDF。",
+      "GitHub": "https://github.com/IIIStudio/IMG-A4-PDF"
+    },
+    {
+      "href": "https://iiistudio.github.io/Translator/",
+      "img": "./image/IIIStudio.png",
+      "nome": "Translator",
+      "jianjie": "翻译。",
+      "GitHub": "https://github.com/IIIStudio/Translator"
+    },
+    {
+      "href": "https://IIIStudio.github.io/TXTMSTTS/",
+      "img": "./image/IIIStudio.png",
+      "nome": "TXTMSTTS",
+      "jianjie": "TXT在线听书文字转语音阅读器。",
+      "GitHub": "https://github.com/IIIStudio/TXTMSTTS"
+    },
+    {
       "href": "https://starme.cc.cd/zh-CN/repo",
       "img": "./image/starme.cc.cd_19f179b09660b.png",
       "nome": "starme.cc.cd",
