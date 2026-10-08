@@ -1514,6 +1514,12 @@
       "nome": "薄荷 API",
       "jianjie": "New API",
       "gw": "https://up.x666.me/"
+    },
+    {
+      "href": "https://animadex.net/?mode=characters",
+      "img": "./image/animadex.net.png",
+      "nome": "AnimaDex",
+      "jianjie": "Anima基模角色图库。"
     }
   ],
   "URL": [
