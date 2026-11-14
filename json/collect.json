@@ -1528,6 +1528,13 @@
       "img": "./image/newtonquan-yusi.pages.dev.png",
       "nome": "雨丝 Wet Denier Lab",
       "jianjie": "3D丝袜泼水实验。"
+    },
+    {
+      "href": "https://brickfire-survivors.vercel.app/",
+      "img": "./image/brickfire-survivors.vercel.app.png",
+      "nome": "钢铁余烬",
+      "jianjie": "像素坦克肉鸽生存游戏。",
+      "GitHub": "https://github.com/white0dew/brickfire-survivors"
     }
   ],
   "URL": [
