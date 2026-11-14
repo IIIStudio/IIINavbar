@@ -1535,6 +1535,20 @@
       "nome": "钢铁余烬",
       "jianjie": "像素坦克肉鸽生存游戏。",
       "GitHub": "https://github.com/white0dew/brickfire-survivors"
+    },
+    {
+      "href": "https://claude-opus-5-5-cf-transport-ship.pages.dev",
+      "img": "./image/claude-opus-5-5-cf-transport-ship.pages.dev.png",
+      "nome": "运输船 · 穿越火线 3D",
+      "jianjie": "CF运输船3D复刻。",
+      "GitHub": "https://github.com/riba2534/claude-opus-5-5-demo"
+    },
+    {
+      "href": "https://claude-opus-5-5-qqfeiche3d.pages.dev",
+      "img": "./image/claude-opus-5-5-qqfeiche3d.pages.dev.png",
+      "nome": "QQ飞车 3D 同人还原",
+      "jianjie": "QQ飞车3D竞速同人。",
+      "GitHub": "https://github.com/riba2534/claude-opus-5-5-demo"
     }
   ],
   "URL": [
